@@ -104,7 +104,7 @@ msgstr "\"SN-01::10\" for \"SN-01\" to \"SN-10\""
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:764
 msgid "\"SN-01::10\" for \"SN-01\" to \"SN-10\". Missing Serial Nos will be created on Save"
-msgstr ""
+msgstr "\"SN-01::10\" a \"SN-01\"-től a \"SN-10\"-ig. A hiányzó sorozatszámok mentéskor jönnek létre"
 
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:157
 msgid "# In Stock"
@@ -277,7 +277,7 @@ msgstr "Több megrendelés engedélyezése (ügyfelenként) ugyanazzal a megrend
 
 #: erpnext/controllers/trends.py:66
 msgid "'Based On' and 'Group By' can not be the same"
-msgstr ""
+msgstr "A 'Alapja' és a 'Csoportosítás' nem lehet azonos"
 
 #: erpnext/selling/report/inactive_customers/inactive_customers.py:23
 msgid "'Days Since Last Order' must be greater than or equal to zero"
@@ -303,15 +303,15 @@ msgstr "a \"Dátumtól\" értéknek későbbinek kell lennie a \"Dátumig\" ért
 
 #: erpnext/stock/doctype/item/item.py:471
 msgid "'Has Serial No' cannot be 'Yes' for non-stock item"
-msgstr ""
+msgstr "A 'Van sorozatszáma' nem lehet 'Igen' nem készletezett cikknél"
 
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.py:152
 msgid "'Inspection Required before Delivery' is disabled for the item {0}, no need to create the QI"
-msgstr ""
+msgstr "A 'Kiszállítás előtti ellenőrzés kötelező' le van tiltva a(z) {0} cikknél, nem szükséges minőségellenőrzést létrehozni"
 
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.py:143
 msgid "'Inspection Required before Purchase' is disabled for the item {0}, no need to create the QI"
-msgstr ""
+msgstr "A 'Beszerzés előtti ellenőrzés kötelező' le van tiltva a(z) {0} cikknél, nem szükséges minőségellenőrzést létrehozni"
 
 #: erpnext/stock/report/stock_ledger/stock_ledger.py:687
 #: erpnext/stock/report/stock_ledger/stock_ledger.py:780
@@ -335,7 +335,7 @@ msgstr "'Csomagszámhoz' nem lehet kisebb, mint a 'Csomagszámtól'"
 
 #: erpnext/controllers/sales_and_purchase_return.py:82
 msgid "'Update Stock' cannot be checked because items are not delivered via {0}"
-msgstr ""
+msgstr "A 'Készlet frissítése' nem jelölhető be, mert a cikkeket nem a(z) {0} szállítja ki"
 
 #: erpnext/accounts/doctype/sales_invoice/services/fixed_assets.py:46
 msgid "'Update Stock' cannot be checked for fixed asset sale"
@@ -1087,7 +1087,7 @@ msgstr "A - C"
 
 #: erpnext/selling/doctype/customer/customer.py:371
 msgid "A Customer Group exists with the same name. Please change the Customer name or rename the Customer Group"
-msgstr ""
+msgstr "Már létezik azonos nevű vevőcsoport. Kérjük, változtassa meg a vevő nevét, vagy nevezze át a vevőcsoportot"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:70
 msgid "A Holiday List can be added to exclude counting these days for the Workstation."
@@ -1099,7 +1099,7 @@ msgstr "Az érdeklődőhöz egy személy vagy egy szervezet neve szükséges"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:83
 msgid "A Packing Slip can only be created for a Draft Delivery Note."
-msgstr ""
+msgstr "Csomagolójegy csak piszkozat állapotú szállítólevélhez hozható létre."
 
 #: erpnext/accounts/services/gl_validator.py:123
 msgid "A Period Closing Voucher is already submitted and an Opening Entry can no longer be created. {0} to learn more."
@@ -1117,7 +1117,7 @@ msgstr "A termék vagy szolgáltatás, amelyet vásárolt, eladott vagy tartanak
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:156
 msgid "A Proforma Invoice can only be created against a submitted Sales Order."
-msgstr ""
+msgstr "Proforma számla csak véglegesített vevői rendeléshez hozható létre."
 
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.py:604
 msgid "A Reconciliation Job {0} is running for the same filters. Cannot reconcile now"
@@ -1129,7 +1129,7 @@ msgstr "Már létezik egy {0} fordított naplóbejegyzés ehhez a naplóbejegyz�
 
 #: erpnext/public/js/sales_order_proforma.js:306
 msgid "A cancelled Proforma Invoice cannot be emailed."
-msgstr ""
+msgstr "Sztornózott proforma számla nem küldhető el e-mailben."
 
 #. Description of a DocType
 #: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json
@@ -1149,11 +1149,11 @@ msgstr "Disabled Product Bundle nem választható ki tranzakciókban."
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:643
 msgid "A draft reverse journal for {0} has been created: {1}"
-msgstr ""
+msgstr "Piszkozat sztornó könyvelési tétel jött létre ehhez: {0}: {1}"
 
 #: erpnext/public/js/utils/draft_link_guard.js:49
 msgid "A draft {0} already exists for this {1}: {2}. Do you still want to create a new one?"
-msgstr ""
+msgstr "Már létezik piszkozat {0} ehhez a(z) {1}: {2} elemhez. Biztosan létrehoz egy újat?"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.py:59
 msgid "A driver must be set to submit."
@@ -1161,11 +1161,11 @@ msgstr "Egy járművezetőt be kell állítani a küldéshez."
 
 #: erpnext/public/js/setup_wizard.js:27
 msgid "A few quick questions so we can set things up the way you work."
-msgstr ""
+msgstr "Néhány gyors kérdés, hogy a munkamódszeréhez igazíthassuk a beállításokat."
 
 #: erpnext/public/js/setup_wizard.js:25
 msgid "A little about you"
-msgstr ""
+msgstr "Néhány szó Önről"
 
 #. Description of a DocType
 #: erpnext/stock/doctype/warehouse/warehouse.json
@@ -1198,7 +1198,7 @@ msgstr "A tételhez tartozó vásárlási bizonylat kiállítása előtt minős�
 
 #: erpnext/stock/doctype/material_request/material_request.js:477
 msgid "A separate Purchase Order is created for each Supplier."
-msgstr ""
+msgstr "Minden beszállítóhoz külön beszerzési rendelés jön létre."
 
 #: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.py:99
 msgid "A template with tax category {0} already exists. Only one template is allowed with each tax category"
@@ -1211,7 +1211,7 @@ msgstr "Egy forgalmazó / kereskedő / bizományos / társulat / viszonteladó h
 
 #: erpnext/crm/doctype/appointment/appointment.py:71
 msgid "A verified appointment cannot be moved back to 'Unverified' status."
-msgstr ""
+msgstr "Megerősített időpont nem állítható vissza 'Nem megerősített' állapotba."
 
 #. Option for the 'Blood Group' (Select) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -1393,7 +1393,7 @@ msgstr "Hozzáférési kulcs szükséges a szolgáltatóhoz: {0}"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:426
 msgid "Access to Request for Quotation from the portal is disabled. To allow access, enable it in Portal Settings."
-msgstr ""
+msgstr "Az árajánlatkérés portálról való elérése le van tiltva. Az engedélyezéshez kapcsolja be a Portál beállításokban."
 
 #. Description of the 'Common Code' (Data) field in DocType 'UOM'
 #: erpnext/setup/doctype/uom/uom.json
@@ -1665,7 +1665,7 @@ msgstr "Számla a további beszerzési költségek, például a szállítási va
 #. 'Item Default'
 #: erpnext/stock/doctype/item_default/item_default.json
 msgid "Account to track value added to stock via Stock Entry, Stock Reconciliation or Landed Cost Voucher"
-msgstr ""
+msgstr "A készlethez adott érték nyilvántartására szolgáló számla készlettétel, készletegyeztetés vagy vámérték-bizonylat révén"
 
 #. Description of the 'COGS Account' (Link) field in DocType 'Item Default'
 #: erpnext/stock/doctype/item_default/item_default.json
@@ -2145,7 +2145,7 @@ msgstr "Számviteli időszak"
 
 #: erpnext/accounts/doctype/accounting_period/accounting_period.py:49
 msgid "Accounting Period cannot be created for a future date. End Date {0} is after today."
-msgstr ""
+msgstr "Könyvelési időszak nem hozható létre jövőbeli dátumra. A(z) {0} záró dátum a mai nap utáni."
 
 #: erpnext/accounts/doctype/accounting_period/accounting_period.py:77
 msgid "Accounting Period overlaps with {0}"
@@ -2315,7 +2315,7 @@ msgstr "Számlák beállítása"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:497
 msgid "Accounts cannot be removed, as user doesn't have access to all the accounts of {0}"
-msgstr ""
+msgstr "A számlák nem távolíthatók el, mert a felhasználónak nincs hozzáférése a(z) {0} összes számlájához"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1010
 msgid "Accounts table cannot be blank."
@@ -2410,7 +2410,7 @@ msgstr "Kezdeményezve"
 #. DocType 'Appointment Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Action for Expired Unverified Appointments"
-msgstr ""
+msgstr "Művelet lejárt, meg nem erősített időpontokhoz"
 
 #. Label of the action_if_accumulated_monthly_budget_exceeded (Select) field in
 #. DocType 'Budget'
@@ -2746,7 +2746,7 @@ msgstr "Tényleges idő (óra)"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1181
 msgid "Actual quantity of the finished good that will be manufactured."
-msgstr ""
+msgstr "A legyártandó késztermék tényleges mennyisége."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1539
 #: erpnext/public/js/controllers/accounts.js:194
@@ -2964,7 +2964,7 @@ msgstr "Add hozzá az összes olyan számlát, amelyre fel szeretnéd osztani a 
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:92
 msgid "Add atleast one voucher to repost."
-msgstr ""
+msgstr "Adjon hozzá legalább egy bizonylatot az újrakönyveléshez."
 
 #: erpnext/www/book_appointment/index.html:42
 msgid "Add details"
@@ -2977,7 +2977,7 @@ msgstr "Tegyen fel elemeket az Elemek helye táblázatba"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:348
 msgid "Add items with a warehouse in the Item Locations table"
-msgstr ""
+msgstr "Adjon hozzá raktárral rendelkező cikkeket a Cikkhelyek táblázatban"
 
 #. Label of the add_deduct_tax (Select) field in DocType 'Purchase Taxes and
 #. Charges'
@@ -3476,7 +3476,7 @@ msgstr "Előleg összege"
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:93
 msgid "Advance Booking Days is mandatory for Appointment Scheduling."
-msgstr ""
+msgstr "Az Előfoglalási napok megadása kötelező az időpont-ütemezéshez."
 
 #. Label of the advance_paid (Currency) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -3799,7 +3799,7 @@ msgstr "Életkor ({0})"
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:102
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:28
 msgid "Age as on"
-msgstr ""
+msgstr "Kor a következő napon"
 
 #. Label of the ageing_based_on (Select) field in DocType 'Process Statement Of
 #. Accounts'
@@ -4073,13 +4073,13 @@ msgstr "Minden kapcsolódó értékesítési megrendelésnek alvállalkozói sze
 
 #: erpnext/stock/doctype/pick_list/mapper.py:313
 msgid "All picked items have already been transferred against this Pick List"
-msgstr ""
+msgstr "Minden kigyűjtött cikk már át lett adva ehhez a gyűjtőlistához"
 
 #: erpnext/manufacturing/doctype/work_order/mapper.py:588
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1242
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1262
 msgid "All required items have already been transferred, requested or picked."
-msgstr ""
+msgstr "Minden szükséges cikk már át lett adva, igényelve vagy kigyűjtve."
 
 #. Description of the 'Carry Forward Communication and Comments' (Check) field
 #. in DocType 'CRM Settings'
@@ -4244,7 +4244,7 @@ msgstr "Alternatív tétel engedélyezése"
 
 #: erpnext/stock/doctype/item_alternative/item_alternative.py:68
 msgid "Allow Alternative Item must be checked on Item {0}"
-msgstr ""
+msgstr "A 'Helyettesítő cikk engedélyezése' jelölőt be kell kapcsolni a(z) {0} cikknél"
 
 #. Label of the material_consumption (Check) field in DocType 'Manufacturing
 #. Settings'
@@ -4485,7 +4485,7 @@ msgstr "Belső átutalások engedélyezése felhasználó által meghatározott 
 #. 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allow issuing Proforma Invoices against a Sales Order."
-msgstr ""
+msgstr "Proforma számlák kiállításának engedélyezése vevői rendeléshez."
 
 #. Description of the 'Allow Continuous Material Consumption' (Check) field in
 #. DocType 'Manufacturing Settings'
@@ -4628,7 +4628,7 @@ msgstr "Engedélyezett vállalatok"
 
 #: erpnext/stock/doctype/company_restriction/company_restriction.py:106
 msgid "Allowed Companies is required when Restrict to Companies is checked"
-msgstr ""
+msgstr "Az Engedélyezett cégek megadása kötelező, ha a 'Cégekre korlátozás' be van jelölve"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/allowed_dimension/allowed_dimension.json
@@ -4712,7 +4712,7 @@ msgstr "Már importálva"
 
 #: erpnext/accounts/bulk_payment.py:94
 msgid "Already Paid"
-msgstr ""
+msgstr "Már kifizetve"
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:140
 msgid "Already set default in pos profile {0} for user {1}, kindly disabled default"
@@ -5166,7 +5166,7 @@ msgstr "Az tételcsoport a tételek típusok szerinti osztályozásának módja.
 
 #: erpnext/crm/doctype/appointment/appointment.py:75
 msgid "An appointment booked through the portal can only be opened via email verification."
-msgstr ""
+msgstr "A portálon foglalt időpont csak e-mailes megerősítéssel nyitható meg."
 
 #. Description of the 'Notify by email on creation of automatic Material
 #. Request' (Check) field in DocType 'Stock Settings'
@@ -5526,7 +5526,7 @@ msgstr "SLA alkalmazása a megoldási időre"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:406
 msgid "Apply Schedule"
-msgstr ""
+msgstr "Ütemezés alkalmazása"
 
 #. Description of the 'Enable Discounts and Margin' (Check) field in DocType
 #. 'Accounts Settings'
@@ -5553,7 +5553,7 @@ msgstr "A dokumentumra alkalmazza"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:569
 msgid "Applying Schedule..."
-msgstr ""
+msgstr "Ütemezés alkalmazása..."
 
 #. Description of the 'Additional Discount Amount' (Currency) field in DocType
 #. 'Sales Order'
@@ -5573,7 +5573,7 @@ msgstr "Vizit időpont egyeztetés"
 #. Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Appointment Booking Portal Settings"
-msgstr ""
+msgstr "Időpontfoglalási portál beállításai"
 
 #. Name of a DocType
 #. Label of a Workspace Sidebar Item
@@ -5593,7 +5593,7 @@ msgstr "Vizit időpont megerősítése"
 
 #: erpnext/crm/doctype/appointment/appointment.py:190
 msgid "Appointment Confirmed"
-msgstr ""
+msgstr "Időpont megerősítve"
 
 #. Label of the appointment_details_section (Section Break) field in DocType
 #. 'Appointment Booking Settings'
@@ -5623,7 +5623,7 @@ msgstr "Az időpontegyeztetés le lett tiltva ezen az oldalon"
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:101
 msgid "Appointment Scheduling needs to be enabled for Appointment Booking through portal."
-msgstr ""
+msgstr "A portálon keresztüli időpontfoglaláshoz engedélyezni kell az időpont-ütemezést."
 
 #. Label of the appointment_with (Link) field in DocType 'Appointment'
 #: erpnext/crm/doctype/appointment/appointment.json
@@ -5632,15 +5632,15 @@ msgstr "Kinevezés"
 
 #: erpnext/crm/doctype/appointment/appointment.py:87
 msgid "Appointment can only be scheduled up to {0} day(s) in advance."
-msgstr ""
+msgstr "Időpont legfeljebb {0} nappal előre foglalható."
 
 #: erpnext/crm/doctype/appointment/appointment.py:80
 msgid "Appointment cannot be scheduled for a past time."
-msgstr ""
+msgstr "Időpont nem foglalható múltbeli időpontra."
 
 #: erpnext/crm/doctype/appointment/appointment.py:99
 msgid "Appointment cannot be scheduled on a holiday."
-msgstr ""
+msgstr "Időpont nem foglalható munkaszüneti napra."
 
 #: erpnext/www/book_appointment/index.js:237
 msgid "Appointment created successfully"
@@ -5648,7 +5648,7 @@ msgstr "Találkozó sikeresen létrehozva"
 
 #: erpnext/www/book_appointment/verify/index.py:28
 msgid "Appointment has been closed. Please book the appointment again."
-msgstr ""
+msgstr "Az időpont lezárult. Kérjük, foglaljon időpontot újra."
 
 #: erpnext/www/book_appointment/verify/index.py:33
 msgid "Appointment is already verified."
@@ -5656,11 +5656,11 @@ msgstr "Az időpont már vissza van igazolva."
 
 #: erpnext/crm/doctype/appointment/appointment.py:117
 msgid "Appointment must be scheduled within the available slot timings."
-msgstr ""
+msgstr "Az időpontot az elérhető idősávokon belül kell foglalni."
 
 #: erpnext/crm/doctype/appointment/appointment.py:67
 msgid "Appointments created manually cannot have 'Unverified' status."
-msgstr ""
+msgstr "A kézzel létrehozott időpontok nem lehetnek 'Nem megerősített' állapotúak."
 
 #. Label of the approving_role (Link) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
@@ -5702,11 +5702,11 @@ msgstr "Biztos, hogy törölsz minden demo adatot?"
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:51
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.js:100
 msgid "Are you sure you want to create Reposting Entries?"
-msgstr ""
+msgstr "Biztosan létre kívánja hozni az újrakönyvelési tételeket?"
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.js:66
 msgid "Are you sure you want to create a Reposting Entry?"
-msgstr ""
+msgstr "Biztosan létre kíván hozni egy újrakönyvelési tételt?"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:488
 msgid "Are you sure you want to delete this Item?"
@@ -5800,7 +5800,7 @@ msgstr "Mivel elegendő alapanyag van, a raktárhoz {0} nem szükséges anyagké
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.py:251
 msgid "As there is reserved stock, you cannot disable {0}."
-msgstr ""
+msgstr "Mivel van lefoglalt készlet, a(z) {0} nem tiltható le."
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.py:225
 #: erpnext/stock/doctype/stock_settings/stock_settings.py:237
@@ -6390,7 +6390,7 @@ msgstr "Névhez rendelés"
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:593
 #: erpnext/public/js/controllers/buying.js:560
 msgid "Assigning {0} to {1} (row {2})"
-msgstr ""
+msgstr "{0} hozzárendelése ehhez: {1} ({2}. sor)"
 
 #: erpnext/templates/pages/projects.html:48
 msgid "Assignment"
@@ -6420,7 +6420,7 @@ msgstr "A(z) {0} sorban: Sorozat és kötegelt csomagban a(z) {1} dokumentum ál
 
 #: erpnext/accounts/services/internal_transfer.py:98
 msgid "At Row {0}: The field {1} is mandatory for internal transfer"
-msgstr ""
+msgstr "A(z) {0}. sorban: a(z) {1} mező kötelező belső átadásnál"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:85
 msgid "At least one account with exchange gain or loss is required"
@@ -6453,7 +6453,7 @@ msgstr "Az Eladás vagy a Vásárlás közül legalább egyet kell választani"
 
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.py:226
 msgid "At least one raw material for Finished Good Item {0} should be customer provided."
-msgstr ""
+msgstr "A(z) {0} késztermékhez legalább egy alapanyagot a vevőnek kell biztosítania."
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:73
 msgid "At least one raw material item must be present in the stock entry for the type {0}"
@@ -6724,13 +6724,13 @@ msgstr "Automatikus ismétlési részletei"
 #. 'Stock Reposting Settings'
 #: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.json
 msgid "Auto Repost Incorrect Valuation Entries (Weekly)"
-msgstr ""
+msgstr "Hibás értékelési tételek automatikus újrakönyvelése (hetente)"
 
 #. Label of the auto_reposting_section (Section Break) field in DocType 'Stock
 #. Reposting Settings'
 #: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.json
 msgid "Auto Reposting of Incorrect Valuation"
-msgstr ""
+msgstr "Hibás értékelés automatikus újrakönyvelése"
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.py:210
 msgid "Auto Tax Settings Error"
@@ -6873,7 +6873,7 @@ msgstr "Gépjárműipar"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:532
 msgid "Availability"
-msgstr ""
+msgstr "Elérhetőség"
 
 #. Label of the availability_of_slots (Table) field in DocType 'Appointment
 #. Booking Settings'
@@ -7159,7 +7159,7 @@ msgstr "Anyagjegyzék 1"
 
 #: erpnext/manufacturing/doctype/bom/mapper.py:82
 msgid "BOM 1 {0} and BOM 2 {1} should not be the same"
-msgstr ""
+msgstr "Az 1. ({0}) és a 2. ({1}) anyagjegyzék nem lehet azonos"
 
 #: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:38
 msgid "BOM 2"
@@ -7409,7 +7409,7 @@ msgstr "Az anyagjegyzék nem tartalmaz készletezett tételt"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_updation_utils.py:94
 msgid "BOM recursion: {0} cannot be an ancestor of itself"
-msgstr ""
+msgstr "Anyagjegyzék-rekurzió: a(z) {0} nem lehet önmaga őse"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:873
 msgid "BOM recursion: {1} cannot be parent or child of {0}"
@@ -7417,7 +7417,7 @@ msgstr "Anyagjegyzék-rekurzió: {1} nem lehet a(z) {0} szülője vagy gyermeke"
 
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.js:81
 msgid "BOM update is queued and may take a few minutes. Check {0} for progress."
-msgstr ""
+msgstr "Az anyagjegyzék frissítése sorba állt, és néhány percet igénybe vehet. A folyamatot itt ellenőrizheti: {0}."
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1598
 msgid "BOM {0} does not belong to Item {1}"
@@ -7454,11 +7454,11 @@ msgstr "Az anyagjegyzékek létrehozása várólistára került. Kérjük, kés�
 
 #: erpnext/stock/doctype/item_standard_cost/item_standard_cost.py:51
 msgid "Backdated Entries Will Be Blocked"
-msgstr ""
+msgstr "A visszadátumozott tételek le lesznek tiltva"
 
 #: erpnext/stock/stock_ledger.py:99
 msgid "Backdated Entry Not Allowed"
-msgstr ""
+msgstr "Visszadátumozott tétel nem engedélyezett"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:356
 msgid "Backdated Stock Entry"
@@ -7743,7 +7743,7 @@ msgstr "Bankszámla típusa"
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:443
 msgid "Bank Account {0} in Bank Transaction {1} is not matching with Bank Account {2}"
-msgstr ""
+msgstr "A(z) {1} banki tranzakcióban szereplő {0} bankszámla nem egyezik a(z) {2} bankszámlával"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:15
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:20
@@ -8333,7 +8333,7 @@ msgstr "A {0} sz. köteg nem szerepel az eredeti {1} {2}-ban, ezért nem küldhe
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:774
 msgid "Batch No {0} of Item {1} has negative stock of quantity {2} in the warehouse {3}"
-msgstr ""
+msgstr "A(z) {1} cikk {0} kötegének negatív a készlete ({2}) a(z) {3} raktárban"
 
 #. Label of the batch_no (Int) field in DocType 'BOM Update Batch'
 #: erpnext/manufacturing/doctype/bom_update_batch/bom_update_batch.json
@@ -8751,7 +8751,7 @@ msgstr "Láda"
 
 #: erpnext/stock/doctype/bin/bin.js:16
 msgid "Bin Values Recalculated"
-msgstr ""
+msgstr "Raktárhely-értékek újraszámolva"
 
 #. Label of the bio (Text Editor) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -8889,7 +8889,7 @@ msgstr "Beszállító blokkolása"
 #. Description of the 'Is Frozen' (Check) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Blocks new transactions and further accounting entries on this customer's account. Only users with the role set in Company's \"Roles Allowed to Set and Edit Frozen Account Entries\" can transact."
-msgstr ""
+msgstr "Letiltja az új tranzakciókat és további könyvelési tételeket ennek a vevőnek a számláján. Csak azok a felhasználók könyvelhetnek, akik rendelkeznek a Cég \"Zárolt számlatételek beállítására és szerkesztésére jogosult szerepkörök\" beállításában megadott szerepkörrel."
 
 #. Description of the 'Disabled' (Check) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
@@ -8908,7 +8908,7 @@ msgstr "Vércsoport"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:149
 msgid "Board"
-msgstr ""
+msgstr "Tábla"
 
 #. Label of the body (Text Editor) field in DocType 'Process Statement Of
 #. Accounts'
@@ -8973,7 +8973,7 @@ msgstr "Halasztott bejegyzések könyvelése ennek alapján"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Book Stock Expense GL Entries"
-msgstr ""
+msgstr "Készletköltség főkönyvi tételek könyvelése"
 
 #: erpnext/www/book_appointment/index.html:15
 msgid "Book an appointment"
@@ -9010,7 +9010,7 @@ msgstr ""
 
 #: erpnext/accounts/services/gl_validator.py:143
 msgid "Books have been closed until the period ending on {0}"
-msgstr ""
+msgstr "A könyvek le vannak zárva a(z) {0} napon végződő időszakig"
 
 #. Option for the 'Type of Transaction' (Select) field in DocType 'Inventory
 #. Dimension'
@@ -9234,7 +9234,7 @@ msgstr "Költségvetést nem lehet hozzárendelni ehhez a Csoport számlához {0
 
 #: erpnext/accounts/doctype/budget/budget.py:165
 msgid "Budget cannot be assigned against {0}, as its Root Type is not of Income or Expense"
-msgstr ""
+msgstr "Nem rendelhető költségvetés a(z) {0} elemhez, mert a gyökértípusa nem Bevétel vagy Ráfordítás"
 
 #: erpnext/accounts/doctype/fiscal_year/fiscal_year_dashboard.py:9
 msgid "Budgets"
@@ -9278,15 +9278,15 @@ msgstr "Tömeges fizetés"
 
 #: erpnext/accounts/bulk_payment.py:44
 msgid "Bulk Payment Entries"
-msgstr ""
+msgstr "Kötegelt fizetési tételek"
 
 #: erpnext/accounts/bulk_payment.py:137
 msgid "Bulk Payment Entry creation failed for {0}"
-msgstr ""
+msgstr "A kötegelt fizetési tétel létrehozása nem sikerült ehhez: {0}"
 
 #: erpnext/accounts/bulk_payment.py:126
 msgid "Bulk Payment Entry skipped for {0}"
-msgstr ""
+msgstr "A kötegelt fizetési tétel kihagyva ehhez: {0}"
 
 #: erpnext/utilities/doctype/rename_tool/rename_tool.js:71
 msgid "Bulk Rename Jobs"
@@ -9590,7 +9590,7 @@ msgstr "Számított kedvezmény eltérés"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:371
 msgid "Calculating Schedule..."
-msgstr ""
+msgstr "Ütemezés számítása..."
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:95
 msgid "Calculating arrival times"
@@ -9812,7 +9812,7 @@ msgstr "Nem lehet megváltoztatni az értékelés módját, mert vannak tranzakc
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.py:192
 msgid "Can't change the valuation method, as there are transactions against some items which do not have their own valuation method"
-msgstr ""
+msgstr "Az értékelési módszer nem módosítható, mert vannak olyan cikkekhez tartozó tranzakciók, amelyeknek nincs saját értékelési módszerük"
 
 #: erpnext/support/doctype/warranty_claim/warranty_claim.py:79
 msgid "Cancel Material Visit {0} before cancelling this Warranty Claim"
@@ -9839,7 +9839,7 @@ msgstr "Cancel When Period Ends"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:553
 msgid "Cancel or delete these documents to release the stock."
-msgstr ""
+msgstr "A készlet felszabadításához sztornózza vagy törölje ezeket a dokumentumokat."
 
 #. Label of the cancelation_date (Date) field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
@@ -9890,7 +9890,7 @@ msgstr "A forrásadó (TDS) nem alkalmazható több félre egy könyvelés sorá
 
 #: erpnext/manufacturing/scheduling/plan_adapter.py:68
 msgid "Cannot apply an incomplete schedule. {0} task(s) could not be placed:<br>{1}"
-msgstr ""
+msgstr "Hiányos ütemezés nem alkalmazható. {0} feladat nem volt elhelyezhető:<br>{1}"
 
 #: erpnext/stock/doctype/item/item.py:381
 msgid "Cannot be a fixed asset item as Stock Ledger is created."
@@ -9899,7 +9899,7 @@ msgstr "A tétel nem lehet tárgyi eszköz, mert már tartozik hozzá készletny
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:92
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.py:219
 msgid "Cannot calculate arrival time as the driver address is missing."
-msgstr ""
+msgstr "Az érkezési idő nem számítható ki, mert a sofőr címe hiányzik."
 
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.py:117
 msgid "Cannot cancel Asset Depreciation Schedule {0} as it has a draft journal entry {1}."
@@ -9911,7 +9911,7 @@ msgstr "Nem lehet törölni a pénztárzárási bejegyzést"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:140
 msgid "Cannot cancel Stock Reservation Entry {0}, as it has been used in the work order {1}. Please cancel the work order first or unreserve the stock"
-msgstr ""
+msgstr "A(z) {0} készletfoglalási tétel nem sztornózható, mert a(z) {1} gyártási utasításban használatban van. Előbb sztornózza a gyártási utasítást, vagy oldja fel a foglalást"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:283
 msgid "Cannot cancel as processing of cancelled documents is pending."
@@ -9947,7 +9947,7 @@ msgstr "Az attribútumok nem módosíthatók a készletesítés után. Készíts
 
 #: erpnext/stock/doctype/item/item.py:1163
 msgid "Cannot change Item {0} from serialized to non-serialized because a Serial and Batch Bundle exists for it. Please delete or cancel the Serial and Batch Bundle first."
-msgstr ""
+msgstr "A(z) {0} cikk nem állítható át sorozatszámozottról nem sorozatszámozottra, mert létezik hozzá sorozatszám- és tételköteg. Kérjük, előbb törölje vagy sztornózza a sorozatszám- és tételköteget."
 
 #: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:74
 msgid "Cannot change Reference Document Type."
@@ -9967,7 +9967,7 @@ msgstr "Nem lehet megváltoztatni a vállalkozás alapértelmezett pénznemét, 
 
 #: erpnext/projects/doctype/task/task.py:164
 msgid "Cannot complete task {0} as its dependent task {1} is not completed / cancelled."
-msgstr ""
+msgstr "A(z) {0} feladat nem fejezhető be, mert a függő {1} feladata nincs befejezve / sztornózva."
 
 #: erpnext/accounts/doctype/cost_center/cost_center.py:61
 msgid "Cannot convert Cost Center to ledger as it has child nodes"
@@ -9991,7 +9991,7 @@ msgstr "Nem hozható létre Intercompany {0}. A forrás {1} minden iteme már te
 
 #: erpnext/manufacturing/doctype/production_plan/services/material_request.py:104
 msgid "Cannot create Material Request for item {0} in group warehouse {1}."
-msgstr ""
+msgstr "Nem hozható létre anyagigénylés a(z) {0} cikkhez a(z) {1} csoportraktárban."
 
 #: erpnext/stock/doctype/purchase_receipt/services/reservation.py:49
 msgid "Cannot create Stock Reservation Entries for future dated Purchase Receipts."
@@ -10008,7 +10008,7 @@ msgstr "Nem lehet könyvelési tételeket létrehozni letiltott számlákhoz: {0
 
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:146
 msgid "Cannot create more Subcontracting Orders against the Purchase Order {0}."
-msgstr ""
+msgstr "Nem hozható létre több alvállalkozói megrendelés a(z) {0} beszerzési rendeléshez."
 
 #: erpnext/controllers/sales_and_purchase_return.py:464
 msgid "Cannot create return for consolidated invoice {0}."
@@ -10020,7 +10020,7 @@ msgstr "Az anyagjegyzék nem kapcsolható ki és nem érvényteleníthető, mert
 
 #: erpnext/crm/doctype/opportunity/opportunity.py:295
 msgid "Cannot declare as Lost because an active Quotation exists."
-msgstr ""
+msgstr "Nem nyilvánítható elveszettnek, mert létezik aktív árajánlat."
 
 #: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.js:16
 #: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.js:26
@@ -10033,7 +10033,7 @@ msgstr "Nem lehet törölni a sorozatszámot: {0}, mivel ezt használja a részv
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1855
 msgid "Cannot delete a system-generated deduction row"
-msgstr ""
+msgstr "A rendszer által generált levonási sor nem törölhető"
 
 #: erpnext/accounts/services/child_item_update.py:432
 msgid "Cannot delete an item which has been ordered"
@@ -10137,7 +10137,7 @@ msgstr "Nem lehet hivatkozni nagyobb vagy egyenlő sor számra, mint az aktuáli
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:96
 msgid "Cannot repost more than {0} vouchers at once. Split them into multiple documents."
-msgstr ""
+msgstr "Egyszerre legfeljebb {0} bizonylat könyvelhető újra. Ossza szét több dokumentumra."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:659
 msgid "Cannot reserve more than Allowed Qty {0} {1} for Item {2} against {3} {4}.<br /><br />The <b>Allowed Qty</b> is calculated as follows:<br /><ul><li>Actual Qty [Available Qty at Warehouse] = {5}</li><li>Reserved Stock [Ignore current SRE] = {6}</li><li>Available Qty To Reserve [Actual Qty - Reserved Stock] = {7}</li><li>Voucher Qty [Voucher Item Qty] = {8}</li><li>Delivered Qty [Qty delivered against the Voucher Item] = {9}</li><li>Total Reserved Qty [Qty reserved against the Voucher Item] = {10}</li><li>Allowed Qty [Minimum of (Available Qty To Reserve, (Voucher Qty - Delivered Qty - Total Reserved Qty))] = {11}</li></ul>"
@@ -10153,11 +10153,11 @@ msgstr "Nem lehet lekérdezni a link tokent. További információért nézze me
 
 #: erpnext/manufacturing/scheduling/plan_adapter.py:79
 msgid "Cannot schedule a Production Plan with status {0}"
-msgstr ""
+msgstr "A(z) {0} állapotú gyártási terv nem ütemezhető"
 
 #: erpnext/manufacturing/scheduling/plan_adapter.py:76
 msgid "Cannot schedule a cancelled Production Plan"
-msgstr ""
+msgstr "Sztornózott gyártási terv nem ütemezhető"
 
 #: erpnext/selling/doctype/customer/customer.py:384
 msgid "Cannot select a Group type Customer Group. Please select a non-group Customer Group."
@@ -10174,7 +10174,7 @@ msgstr "Nem lehet kiválasztani az első sorra az 'Előző sor összegére' vagy
 
 #: erpnext/stock/doctype/item_alternative/item_alternative.py:36
 msgid "Cannot set alternative item for the item {0}"
-msgstr ""
+msgstr "Nem állítható be helyettesítő cikk a(z) {0} cikkhez"
 
 #: erpnext/selling/doctype/quotation/quotation.py:296
 msgid "Cannot set as Lost as Sales Order is made."
@@ -10604,7 +10604,7 @@ msgstr "Ezt a dátumot manuálisan változtassa meg a következő szinkronizál�
 
 #: erpnext/selling/doctype/customer/customer.py:167
 msgid "Changed customer name to '{0}' as '{1}' already exists."
-msgstr ""
+msgstr "A vevő neve '{0}'-ra módosult, mert '{1}' már létezik."
 
 #: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:160
 msgid "Changes in {0}"
@@ -10891,7 +10891,7 @@ msgstr "Gyerek tábla nem engedélyezett"
 
 #: erpnext/projects/doctype/task/task.py:361
 msgid "Child Task exists for this Task. You cannot delete this Task."
-msgstr ""
+msgstr "Ehhez a feladathoz alfeladat tartozik. A feladat nem törölhető."
 
 #: erpnext/stock/doctype/warehouse/warehouse_tree.js:21
 msgid "Child nodes can be only created under 'Group' type nodes"
@@ -11011,7 +11011,7 @@ msgstr "Demo Adatok Törlése..."
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:991
 msgid "Click on 'Add row' to add Serial / Batch entries"
-msgstr ""
+msgstr "Kattintson a 'Sor hozzáadása' gombra sorozatszám / köteg bejegyzések felviteléhez"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:1080
 msgid "Click on 'Get Finished Goods for Manufacture' to fetch the items from the above Sales Orders. Items only for which a BOM is present will be fetched."
@@ -11075,7 +11075,7 @@ msgstr "Megválaszolt üzleti lehetőség lezárása ennyi nap után"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1461
 msgid "Close detail / blur search"
-msgstr ""
+msgstr "Részletek bezárása / keresés elhagyása"
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:244
 msgid "Close the POS"
@@ -12113,7 +12113,7 @@ msgstr "A cégnév nem egyezik"
 
 #: erpnext/assets/doctype/asset/asset.py:334
 msgid "Company of asset {0} and purchase document {1} does not match."
-msgstr ""
+msgstr "A(z) {0} eszköz és a(z) {1} beszerzési dokumentum cége nem egyezik."
 
 #: erpnext/setup/doctype/employee/employee.py:164
 msgid "Company or Personal Email is mandatory when 'Create User Automatically' is enabled"
@@ -12153,11 +12153,11 @@ msgstr "Vállalkozás {0} nem létezik"
 
 #: erpnext/setup/setup_wizard/operations/taxes_setup.py:14
 msgid "Company {0} does not exist yet. Taxes setup aborted."
-msgstr ""
+msgstr "A(z) {0} cég még nem létezik. Az adóbeállítás megszakadt."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:579
 msgid "Company {0} does not match with POS Profile Company {1}"
-msgstr ""
+msgstr "A(z) {0} cég nem egyezik a POS-profil cégével ({1})"
 
 #: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:105
 msgid "Company {0} is added more than once"
@@ -12255,16 +12255,16 @@ msgstr "Kész mennyiség"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1786
 msgid "Completed Quantity ({0}), Pending Quantity ({1}) and Process Loss Quantity ({2}) must add up to the Qty to Manufacture ({3})."
-msgstr ""
+msgstr "A készmennyiség ({0}), a hátralévő mennyiség ({1}) és a gyártási veszteség ({2}) összegének ki kell adnia a gyártandó mennyiséget ({3})."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:317
 #: erpnext/public/js/shop_floor/shop_floor.js:831
 msgid "Completed Quantity cannot be greater than {0}"
-msgstr ""
+msgstr "A készmennyiség nem lehet nagyobb, mint {0}"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:912
 msgid "Completed Quantity should be greater than 0"
-msgstr ""
+msgstr "A készmennyiségnek nagyobbnak kell lennie 0-nál"
 
 #: erpnext/projects/report/project_summary/project_summary.py:136
 #: erpnext/projects/report/project_summary/test_project_summary.py:64
@@ -12333,7 +12333,7 @@ msgstr "Összetevő megnevezése"
 #. field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Component quantities are derived from their percentage of the Output Qty. One component row can be marked as Balance Item to absorb the remaining percentage."
-msgstr ""
+msgstr "A komponensmennyiségek a kimeneti mennyiség százalékos arányából származnak. Egy komponenssor megjelölhető egyenlegtételként, hogy felvegye a fennmaradó százalékot."
 
 #. Label of the items (Table) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
@@ -12657,7 +12657,7 @@ msgstr "Fogyasztott Menny"
 
 #: erpnext/manufacturing/doctype/work_order/services/reservation.py:186
 msgid "Consumed Qty {0} cannot be greater than Reserved Qty {1} for item {2}"
-msgstr ""
+msgstr "A felhasznált mennyiség ({0}) nem lehet nagyobb a lefoglalt mennyiségnél ({1}) a(z) {2} cikknél"
 
 #. Label of the consumed_quantity (Data) field in DocType 'Asset Repair
 #. Consumed Item'
@@ -13098,7 +13098,7 @@ msgstr "Korrekciós Munka Kártya"
 
 #: erpnext/manufacturing/doctype/job_card/mapper.py:177
 msgid "Corrective Job Cards cannot be created for Work Orders that track semi-finished goods"
-msgstr ""
+msgstr "Nem hozhatók létre javító munkakártyák olyan gyártási utasításokhoz, amelyek félkész termékeket követnek"
 
 #. Label of the corrective_operation_section (Tab Break) field in DocType 'Job
 #. Card'
@@ -13115,7 +13115,7 @@ msgstr "Korrekciós Művelet Költsége"
 
 #: erpnext/manufacturing/doctype/job_card/mapper.py:169
 msgid "Corrective Operation is required"
-msgstr ""
+msgstr "A javító művelet megadása kötelező"
 
 #. Label of the corrective_preventive (Select) field in DocType 'Quality
 #. Action'
@@ -13357,7 +13357,7 @@ msgstr "Költséghely szám"
 
 #: erpnext/accounts/doctype/dunning_type/dunning_type.py:122
 msgid "Cost Center Validation Error"
-msgstr ""
+msgstr "Költséghely ellenőrzési hiba"
 
 #. Label of a Card Break in the Invoicing Workspace
 #: erpnext/accounts/workspace/invoicing/invoicing.json
@@ -13399,11 +13399,11 @@ msgstr "A {0} költséghely nem használható allokációhoz, mivel egy másik a
 
 #: erpnext/assets/doctype/asset/asset.py:362
 msgid "Cost Center {0} does not belong to Company {1}"
-msgstr ""
+msgstr "A(z) {0} költséghely nem tartozik a(z) {1} céghez"
 
 #: erpnext/assets/doctype/asset/asset.py:369
 msgid "Cost Center {0} is a group cost center and group cost centers cannot be used in transactions"
-msgstr ""
+msgstr "A(z) {0} egy csoport-költséghely, és a csoport-költséghelyek nem használhatók tranzakciókban"
 
 #: erpnext/accounts/report/financial_statements.py:863
 msgid "Cost Center: {0} does not exist"
@@ -13528,7 +13528,7 @@ msgstr "Költség- és számlázás"
 
 #: erpnext/projects/doctype/project/project.js:140
 msgid "Costing and Billing fields have been updated"
-msgstr ""
+msgstr "A költség- és számlázási mezők frissültek"
 
 #: erpnext/setup/demo.py:78
 msgid "Could Not Delete Demo Data"
@@ -13578,7 +13578,7 @@ msgstr "Nem sikerült menteni a táblázat beállításait."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:386
 msgid "Could not schedule {0} task(s), so this proposal cannot be applied"
-msgstr ""
+msgstr "{0} feladat nem volt ütemezhető, ezért ez a javaslat nem alkalmazható"
 
 #: erpnext/buying/doctype/supplier_scorecard_period/supplier_scorecard_period.py:80
 msgid "Could not solve criteria score function for {0}. Make sure the formula is valid."
@@ -13952,7 +13952,7 @@ msgstr "Készítsen értékesítési rendeléseket, amelyek segítenek a munka m
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:234
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:757
 msgid "Create Serial Nos from Range"
-msgstr ""
+msgstr "Sorozatszámok létrehozása tartományból"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Create Service Item'
@@ -14070,11 +14070,11 @@ msgstr "Munkaállomás létrehozása"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1129
 msgid "Create a Manufacture stock entry for the finished goods?"
-msgstr ""
+msgstr "Létrehoz gyártási készlettételt a késztermékekhez?"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:231
 msgid "Create a Stock Closing Entry for the entire company with To Date as {0} before submitting the Period Closing Voucher."
-msgstr ""
+msgstr "Az időszakzáró bizonylat véglegesítése előtt hozzon létre készletzárási tételt a teljes cégre {0} záró dátummal."
 
 #: banking/src/components/features/BankReconciliation/MatchAndReconcile.tsx:683
 msgid "Create a journal entry for expenses, income or split transactions"
@@ -14130,11 +14130,11 @@ msgstr "Migráció által létrehozva"
 #. Label of the created_through_portal (Check) field in DocType 'Appointment'
 #: erpnext/crm/doctype/appointment/appointment.json
 msgid "Created through Portal"
-msgstr ""
+msgstr "Portálon keresztül létrehozva"
 
 #: erpnext/accounts/bulk_payment.py:39
 msgid "Created {0} draft Payment Entries"
-msgstr ""
+msgstr "{0} piszkozat fizetési tétel létrehozva"
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.py:232
 msgid "Created {0} scorecards for {1} between:"
@@ -14187,7 +14187,7 @@ msgstr "Csomagjegyzék létrehozása ..."
 
 #: erpnext/public/js/sales_order_proforma.js:231
 msgid "Creating Proforma Invoice..."
-msgstr ""
+msgstr "Proforma számla létrehozása..."
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:68
 msgid "Creating Purchase Invoices ..."
@@ -14295,7 +14295,7 @@ msgstr "Követel"
 #: erpnext/selling/doctype/customer/customer.json
 #: erpnext/setup/doctype/customer_group/customer_group.json
 msgid "Credit & Overdue Limits"
-msgstr ""
+msgstr "Hitel- és késedelmi limitek"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.py:744
 msgid "Credit (Transaction)"
@@ -14716,7 +14716,7 @@ msgstr "Jelenlegi anyagjegyzék"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.py:81
 msgid "Current BOM and New BOM cannot be the same"
-msgstr ""
+msgstr "A jelenlegi és az új anyagjegyzék nem lehet azonos"
 
 #. Label of the current_exchange_rate (Float) field in DocType 'Exchange Rate
 #. Revaluation Account'
@@ -16312,7 +16312,7 @@ msgstr "Alapértelmezett gyártói cikkszám"
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Default Manufacturing Variance Account"
-msgstr ""
+msgstr "Alapértelmezett gyártási eltérés számla"
 
 #. Label of the default_material_request_type (Select) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -16383,7 +16383,7 @@ msgstr "Alapértelmezett ideiglenes számla"
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Default Purchase Price Variance Account"
-msgstr ""
+msgstr "Alapértelmezett beszerzési árkülönbözet számla"
 
 #. Label of the purchase_uom (Link) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -17474,11 +17474,11 @@ msgstr "Különbözeti számla a tételek táblázatában"
 
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.py:156
 msgid "Difference Account must be an Asset/Liability type account (Temporary Opening), since this Stock Entry is an Opening Entry"
-msgstr ""
+msgstr "A különbözeti számlának Eszköz/Forrás típusúnak kell lennie (Átmeneti nyitó), mivel ez a készlettétel nyitó tétel"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1107
 msgid "Difference Account must be an Asset/Liability type account, since this Stock Reconciliation is an Opening Entry"
-msgstr ""
+msgstr "A különbözeti számlának Eszköz/Forrás típusúnak kell lennie, mivel ez a készletegyeztetés nyitó tétel"
 
 #. Label of the difference_amount (Currency) field in DocType 'Payment
 #. Reconciliation Allocation'
@@ -17612,7 +17612,7 @@ msgstr "A Munkaidő-nyilvántartás közvetlen visszaküldése nem engedélyezet
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Disable \"Consider Accounting Dimension\" Filter"
-msgstr ""
+msgstr "A \"Számviteli dimenzió figyelembevétele\" szűrő letiltása"
 
 #. Label of the disable_capacity_planning (Check) field in DocType
 #. 'Manufacturing Settings'
@@ -17715,7 +17715,7 @@ msgstr "A letiltott elemek nem választhatók ki egyetlen tranzakcióban sem."
 
 #: erpnext/accounts/services/internal_transfer.py:120
 msgid "Disabled pricing rules since this {0} is an internal transfer"
-msgstr ""
+msgstr "Az árazási szabályok letiltva, mivel ez a(z) {0} belső átadás"
 
 #. Description of the 'Disabled' (Check) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
@@ -17724,7 +17724,7 @@ msgstr "A letiltott beszállítók rejtve maradnak az új tranzakciókban, de a 
 
 #: erpnext/accounts/services/internal_transfer.py:136
 msgid "Disabled tax included prices since this {0} is an internal transfer"
-msgstr ""
+msgstr "Az adót tartalmazó árak letiltva, mivel ez a(z) {0} belső átadás"
 
 #: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.py:82
 msgid "Disabled template must not be default template"
@@ -17975,7 +17975,7 @@ msgstr "Kedvezménynek kisebbnek kell lennie, mint 100"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:3105
 msgid "Discount of {0} applied as per Payment Term"
-msgstr ""
+msgstr "{0} kedvezmény alkalmazva a fizetési feltétel szerint"
 
 #. Label of the section_break_18 (Section Break) field in DocType 'Pricing
 #. Rule'
@@ -18617,11 +18617,11 @@ msgstr "Dunning levél szöveg"
 
 #: erpnext/accounts/doctype/dunning/dunning.py:184
 msgid "Dunning Letter for Dunning Type {0} in language '{1}' not found."
-msgstr ""
+msgstr "Nem található fizetési felszólítás levél a(z) {0} felszólítási típushoz '{1}' nyelven."
 
 #: erpnext/accounts/doctype/dunning/dunning.py:188
 msgid "Dunning Letter for Dunning Type {0} not found."
-msgstr ""
+msgstr "Nem található fizetési felszólítás levél a(z) {0} felszólítási típushoz."
 
 #. Label of the dunning_level (Int) field in DocType 'Overdue Payment'
 #: erpnext/accounts/doctype/overdue_payment/overdue_payment.json
@@ -18712,7 +18712,7 @@ msgstr "Ismétlődő elem csoport található a csoport táblázatában"
 
 #: erpnext/accounts/doctype/dunning_type/dunning_type.py:133
 msgid "Duplicate languages found on Dunning Letter Text. Keep only one of them."
-msgstr ""
+msgstr "Ismétlődő nyelvek a fizetési felszólítás szövegében. Csak egyet tartson meg belőlük."
 
 #: erpnext/projects/doctype/project/project.js:186
 msgid "Duplicate project has been created"
@@ -18724,7 +18724,7 @@ msgstr "{0} ismétlődő sor azonos ezzel: {1}"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:110
 msgid "Duplicate vouchers found. Remove the duplicate vouchers to continue to repost."
-msgstr ""
+msgstr "Ismétlődő bizonylatok találhatók. Az újrakönyvelés folytatásához távolítsa el a duplikált bizonylatokat."
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:157
 msgid "Duplicate {0} found in the table"
@@ -18739,7 +18739,7 @@ msgstr "Időtartam (nap)"
 #. Schedule'
 #: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
 msgid "Duration (Mins)"
-msgstr ""
+msgstr "Időtartam (perc)"
 
 #: erpnext/crm/report/lead_conversion_time/lead_conversion_time.py:67
 msgid "Duration in Days"
@@ -18930,11 +18930,11 @@ msgstr "Iskolai végzettség"
 #. Label of the effective_date (Date) field in DocType 'Item Standard Cost'
 #: erpnext/stock/doctype/item_standard_cost/item_standard_cost.json
 msgid "Effective Date"
-msgstr ""
+msgstr "Hatálybalépés dátuma"
 
 #: erpnext/stock/doctype/item_standard_cost/item_standard_cost.py:71
 msgid "Effective Date cannot be a future date."
-msgstr ""
+msgstr "A hatálybalépés dátuma nem lehet jövőbeli dátum."
 
 #: erpnext/stock/doctype/item_standard_cost/item_standard_cost.py:103
 msgid "Effective Date cannot be before the last stock transaction date {0}."
@@ -19321,7 +19321,7 @@ msgstr "Részleges készlet lefoglalásához engedélyezze a Részleges foglalá
 #. Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Enable Appointment Booking Through Portal"
-msgstr ""
+msgstr "Időpontfoglalás engedélyezése a portálon keresztül"
 
 #. Label of the enable_scheduling (Check) field in DocType 'Appointment Booking
 #. Settings'
@@ -19392,7 +19392,7 @@ msgstr "Engedélyezze az európai hozzáférést"
 #. 'CRM Settings'
 #: erpnext/crm/doctype/crm_settings/crm_settings.json
 msgid "Enable Frappe CRM Data Synchronization"
-msgstr ""
+msgstr "CRM-adatszinkronizáció engedélyezése"
 
 #. Label of the enable_fuzzy_matching (Check) field in DocType 'Accounts
 #. Settings'
@@ -19445,7 +19445,7 @@ msgstr "Engedélyezze a folyamatos készletet"
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Enable Proforma Invoice"
-msgstr ""
+msgstr "Proforma számla engedélyezése"
 
 #. Label of the enable_provisional_accounting_for_non_stock_items (Check) field
 #. in DocType 'Company'
@@ -19467,7 +19467,7 @@ msgstr "Sorozat/kötegelt csomag engedélyezése"
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Enable Stock Delivered But Not Billed"
-msgstr ""
+msgstr "Kiszállított, de nem számlázott készlet engedélyezése"
 
 #. Label of the enable_subscription (Check) field in DocType 'Accounts
 #. Settings'
@@ -19628,7 +19628,7 @@ msgstr "Ennek engedélyezésével biztosítható, hogy minden beszerzési száml
 #. field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enabling this option prevents the creation of a new Sales Invoice when the customer has an overdue limit set and their outstanding overdue amount exceeds that limit."
-msgstr ""
+msgstr "Ennek az opciónak a bekapcsolása megakadályozza új értékesítési számla létrehozását, ha a vevőnek van beállított késedelmi limitje, és a fennálló késedelmes összege meghaladja azt."
 
 #. Description of the 'Book Advance Payments in Separate Party Account' (Check)
 #. field in DocType 'Company'
@@ -20314,7 +20314,7 @@ msgstr "Meglévő ügyfél"
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:581
 msgid "Existing entries will be replaced with the fetched entries"
-msgstr ""
+msgstr "A meglévő tételeket a lekért tételek váltják fel"
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:307
 msgid "Existing transactions in the system belonging to the same bank account and date range"
@@ -20355,7 +20355,7 @@ msgstr "Várható záró dátum"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:519
 msgid "Expected Completion"
-msgstr ""
+msgstr "Várható befejezés"
 
 #. Label of the expected_delivery_date (Date) field in DocType 'Purchase Order
 #. Item'
@@ -20557,7 +20557,7 @@ msgstr "Kiadások"
 #: erpnext/setup/doctype/company/company.json
 #: erpnext/stock/doctype/item_default/item_default.json
 msgid "Expenses Added To Stock Account"
-msgstr ""
+msgstr "Készletre aktivált költségek számla"
 
 #. Label of the expenses_added_to_stock_contra_account (Link) field in DocType
 #. 'Company'
@@ -20568,11 +20568,11 @@ msgstr ""
 #: erpnext/setup/doctype/company/company.json
 #: erpnext/stock/doctype/item_default/item_default.json
 msgid "Expenses Added To Stock Contra Account"
-msgstr ""
+msgstr "Készletre aktivált költségek ellenszámla"
 
 #: erpnext/stock/services/base_stock_gl_composer.py:220
 msgid "Expenses Added To Stock for Item {0}"
-msgstr ""
+msgstr "Készletre aktivált költségek a(z) {0} cikkhez"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
@@ -20739,7 +20739,7 @@ msgstr "Sikertelen bejegyzések"
 
 #: erpnext/utilities/doctype/video_settings/video_settings.py:35
 msgid "Failed to authenticate the API key. Please check the error logs."
-msgstr ""
+msgstr "Az API-kulcs hitelesítése nem sikerült. Kérjük, ellenőrizze a hibanaplókat."
 
 #: erpnext/setup/setup_wizard/setup_wizard.py:45
 #: erpnext/setup/setup_wizard/setup_wizard.py:46
@@ -21674,7 +21674,7 @@ msgstr "Működéshez"
 
 #: erpnext/manufacturing/doctype/job_card/mapper.py:172
 msgid "For Operation is required"
-msgstr ""
+msgstr "A művelet megadása kötelező"
 
 #: banking/src/pages/BankStatementImporter.tsx:172
 msgid "For PDF statements, we auto-detect the tables on each page. You can then confirm each detected table, map its columns, and exclude anything that is not transactions (e.g. ads or summaries). Password-protected PDFs are supported - the password is saved on the bank account and reused."
@@ -21751,7 +21751,7 @@ msgstr "Ebbe a raktárba"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:167
 msgid "For Warehouse {0} must be a child of the group warehouse {1}."
-msgstr ""
+msgstr "A(z) {0} célraktárnak a(z) {1} csoportraktár alá kell tartoznia."
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:146
 msgid "For Work Order"
@@ -21759,11 +21759,11 @@ msgstr "Munkamenethez"
 
 #: erpnext/controllers/status_updater.py:296
 msgid "For an item {0}, quantity must be a negative number"
-msgstr ""
+msgstr "A(z) {0} cikknél a mennyiségnek negatív számnak kell lennie"
 
 #: erpnext/controllers/status_updater.py:293
 msgid "For an item {0}, quantity must be a positive number"
-msgstr ""
+msgstr "A(z) {0} cikknél a mennyiségnek pozitív számnak kell lennie"
 
 #. Description of the 'Income Account' (Link) field in DocType 'Dunning'
 #: erpnext/accounts/doctype/dunning/dunning.json
@@ -21801,7 +21801,7 @@ msgstr ""
 
 #: erpnext/controllers/status_updater.py:303
 msgid "For item {0}, rate must be a positive number. To allow negative rates, enable {1} in {2}"
-msgstr ""
+msgstr "A(z) {0} cikknél az árnak pozitív számnak kell lennie. Negatív árak engedélyezéséhez kapcsolja be a(z) {1} opciót itt: {2}"
 
 #. Description of the 'Do not fetch incoming rate from Serial No' (Check) field
 #. in DocType 'Stock Reposting Settings'
@@ -21815,7 +21815,7 @@ msgstr "A(z) {0} művelethez a {1} sorban kérjük, adjon hozzá nyersanyagokat,
 
 #: erpnext/manufacturing/doctype/work_order/mapper.py:385
 msgid "For operation {0}: Quantity ({1}) can not be greater than pending quantity ({2})"
-msgstr ""
+msgstr "A(z) {0} műveletnél: a mennyiség ({1}) nem lehet nagyobb a hátralévő mennyiségnél ({2})"
 
 #: erpnext/projects/doctype/project/project.js:208
 msgid "For project - {0}, update your status"
@@ -21861,7 +21861,7 @@ msgstr "A vevők kényelméért, ezek a kódok használhatók a nyomtatási form
 
 #: erpnext/stock/serial_batch_bundle.py:1330
 msgid "For the item {0}, the Available qty {1} is less than the Required Qty {2} in the warehouse {3}. Please add sufficient qty in the warehouse."
-msgstr ""
+msgstr "A(z) {0} cikknél az elérhető mennyiség ({1}) kevesebb a szükséges mennyiségnél ({2}) a(z) {3} raktárban. Kérjük, vegyen fel elegendő mennyiséget a raktárba."
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1062
 msgid "For the item {0}, the consumed quantity should be {1} according to the BOM {2}."
@@ -22012,7 +22012,7 @@ msgstr "Ingyenes áru nincs meghatározva az árképzési szabályban {0}"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:511
 msgid "Free to Pick"
-msgstr ""
+msgstr "Szabadon kivehető"
 
 #. Label of the stock_frozen_upto_days (Int) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
@@ -22282,7 +22282,7 @@ msgstr "Időről időre kevesebb legyen, mint az idő"
 
 #: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.py:49
 msgid "From Time must be before To Time"
-msgstr ""
+msgstr "A kezdő időpontnak meg kell előznie a záró időpontot"
 
 #. Label of the from_value (Float) field in DocType 'Shipping Rule Condition'
 #: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json
@@ -22352,7 +22352,7 @@ msgstr "Zárolt"
 #. Description of the 'Is Frozen' (Check) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
 msgid "Frozen suppliers block new transactions and ledger entries until unfrozen. Only users with the role set in Company's \"Roles Allowed to Set and Edit Frozen Account Entries\" can transact."
-msgstr ""
+msgstr "A zárolt beszállítók letiltják az új tranzakciókat és főkönyvi tételeket a feloldásig. Csak azok a felhasználók könyvelhetnek, akik rendelkeznek a Cég \"Zárolt számlatételek beállítására és szerkesztésére jogosult szerepkörök\" beállításában megadott szerepkörrel."
 
 #. Label of the fuel_type (Select) field in DocType 'Vehicle'
 #: erpnext/setup/doctype/vehicle/vehicle.json
@@ -22636,7 +22636,7 @@ msgstr "Főkönyvi számla"
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "General Ledger Report"
-msgstr ""
+msgstr "Főkönyvi kivonat jelentés"
 
 #. Label of the general_ledger_remarks_length (Int) field in DocType 'Accounts
 #. Settings'
@@ -23356,7 +23356,7 @@ msgstr "Csoportosítva"
 #: erpnext/accounts/report/cash_flow/cash_flow.js:22
 #: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.js:13
 msgid "Group by Dimension"
-msgstr ""
+msgstr "Csoportosítás dimenzió szerint"
 
 #: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.js:61
 msgid "Group by Material Request"
@@ -23660,11 +23660,11 @@ msgstr "Magasság (cm)"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:479
 msgid "Held by Other Documents"
-msgstr ""
+msgstr "Más dokumentumok tartják"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:509
 msgid "Held by Pick Lists"
-msgstr ""
+msgstr "Gyűjtőlisták tartják"
 
 #: erpnext/templates/pages/search_help.py:14
 msgid "Help Results for"
@@ -23757,7 +23757,7 @@ msgstr "Képek elrejtése"
 #: erpnext/public/js/sales_order_proforma.js:99
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.json
 msgid "Hide Item Quantity in Print"
-msgstr ""
+msgstr "Cikk mennyiség elrejtése nyomtatásban"
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:261
 msgid "Hide Recent Orders"
@@ -23840,7 +23840,7 @@ msgstr "Szabadnapok listája"
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:89
 msgid "Holiday List - {0} is not valid for current date."
-msgstr ""
+msgstr "A(z) {0} munkaszüneti nap lista nem érvényes az aktuális dátumra."
 
 #. Label of the holiday_list_name (Data) field in DocType 'Holiday List'
 #: erpnext/setup/doctype/holiday_list/holiday_list.json
@@ -24116,18 +24116,18 @@ msgstr "Ha be van jelölve, az adó összegét kell úgy  tekinteni, mint amelye
 #. 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "If checked, this Customer is only available for transactions in the companies listed below."
-msgstr ""
+msgstr "Ha be van jelölve, ez a vevő csak az alább felsorolt cégeknél érhető el tranzakciókhoz."
 
 #. Description of the 'Restrict to Companies' (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "If checked, this Item is only available for transactions in the companies listed below."
-msgstr ""
+msgstr "Ha be van jelölve, ez a cikk csak az alább felsorolt cégeknél érhető el tranzakciókhoz."
 
 #. Description of the 'Restrict to Companies' (Check) field in DocType
 #. 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
 msgid "If checked, this Supplier is only available for transactions in the companies listed below."
-msgstr ""
+msgstr "Ha be van jelölve, ez a beszállító csak az alább felsorolt cégeknél érhető el tranzakciókhoz."
 
 #. Description of the 'Delivered by Supplier (Drop Ship)' (Check) field in
 #. DocType 'Item'
@@ -24326,7 +24326,7 @@ msgstr "Ha engedélyezve van, a rendszer moving average valuation method alapjá
 #. DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "If enabled, the value of goods delivered before invoicing will be recorded in the Stock Delivered But Not Billed account."
-msgstr ""
+msgstr "Ha engedélyezve van, a számlázás előtt kiszállított áruk értéke a Kiszállított, de nem számlázott készlet számlán kerül rögzítésre."
 
 #. Description of the 'Validate Applied Rule' (Check) field in DocType 'Pricing
 #. Rule'
@@ -24845,7 +24845,7 @@ msgstr "Percben"
 #. DocType 'Appointment Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "In Minutes (min: 15 mins, max: 60 mins)"
-msgstr ""
+msgstr "Percben (min.: 15 perc, max.: 60 perc)"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:149
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:181
@@ -25281,7 +25281,7 @@ msgstr "Bevételi számla"
 
 #: erpnext/accounts/doctype/dunning_type/dunning_type.py:86
 msgid "Income Account Validation Error"
-msgstr ""
+msgstr "Bevételi számla ellenőrzési hiba"
 
 #. Label of the income_and_expense_account (Section Break) field in DocType
 #. 'POS Profile'
@@ -25405,7 +25405,7 @@ msgstr "Hibás sorozat- és sarzsköteg"
 
 #: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.py:301
 msgid "Incorrect Stock Asset Account in {0}"
-msgstr ""
+msgstr "Hibás készlet eszközszámla itt: {0}"
 
 #. Name of a report
 #: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.json
@@ -25584,7 +25584,7 @@ msgstr "kezdeményezett"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1051
 msgid "Inspect {0} for job card {1}"
-msgstr ""
+msgstr "{0} ellenőrzése a(z) {1} munkakártyához"
 
 #. Label of the inspected_by (Link) field in DocType 'Quality Inspection'
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.js:33
@@ -25976,7 +25976,7 @@ msgstr "Érvénytelen Jellemző"
 
 #: erpnext/stock/doctype/item/item.js:1275
 msgid "Invalid Attribute Values"
-msgstr ""
+msgstr "Érvénytelen attribútumértékek"
 
 #: erpnext/controllers/accounts_controller.py:535
 msgid "Invalid Auto Repeat Date"
@@ -26072,7 +26072,7 @@ msgstr "Érvénytelen képlet"
 #: erpnext/manufacturing/doctype/bom/bom.py:747
 #: erpnext/manufacturing/doctype/bom/bom.py:764
 msgid "Invalid Formulation"
-msgstr ""
+msgstr "Érvénytelen összetétel"
 
 #: erpnext/selling/report/lost_quotations/lost_quotations.py:65
 msgid "Invalid Group By"
@@ -26201,7 +26201,7 @@ msgstr "Érvénytelen raktár"
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:460
 msgid "Invalid amount in accounting entries of {0} {1} for Account {2}: {3}"
-msgstr ""
+msgstr "Érvénytelen összeg a(z) {0} {1} könyvelési tételeiben a(z) {2} számlához: {3}"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:333
 msgid "Invalid condition expression"
@@ -26212,7 +26212,7 @@ msgstr "Érvénytelen feltétel kifejezés"
 #: erpnext/accounts/doctype/bank_transaction_rule/bank_transaction_rule.py:49
 #: erpnext/accounts/doctype/bank_transaction_rule/bank_transaction_rule.py:52
 msgid "Invalid debit/credit formula: {0}"
-msgstr ""
+msgstr "Érvénytelen tartozik/követel képlet: {0}"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:1074
 msgid "Invalid file URL"
@@ -26236,11 +26236,11 @@ msgstr "Érvénytelen paraméter. A „dn” típusának str-nek kell lennie"
 
 #: erpnext/controllers/queries.py:227
 msgid "Invalid party type: {0}"
-msgstr ""
+msgstr "Érvénytelen partnertípus: {0}"
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:773
 msgid "Invalid range. Use the format {0}"
-msgstr ""
+msgstr "Érvénytelen tartomány. Használja a(z) {0} formátumot"
 
 #: erpnext/utilities/transaction_base.py:126
 msgid "Invalid reference {0} {1}"
@@ -26507,7 +26507,7 @@ msgstr "Számlázás nem végezhető el nulla számlázási órára"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:890
 msgid "Invoice is not blocked. Block the invoice to change the release date."
-msgstr ""
+msgstr "A számla nincs zárolva. A kiadási dátum módosításához zárolja a számlát."
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:171
 #: erpnext/accounts/report/accounts_payable/accounts_payable.html:139
@@ -26623,7 +26623,7 @@ msgstr "Alternatív"
 #. Label of the is_balance_item (Check) field in DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Is Balance Item"
-msgstr ""
+msgstr "Egyenlegtétel"
 
 #. Label of the is_billable (Check) field in DocType 'Timesheet Detail'
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
@@ -27379,11 +27379,11 @@ msgstr "Tétel"
 #. Schedule'
 #: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
 msgid "Item & Operation"
-msgstr ""
+msgstr "Cikk és művelet"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:542
 msgid "Item / Document"
-msgstr ""
+msgstr "Cikk / dokumentum"
 
 #: erpnext/stock/report/bom_search/bom_search.js:8
 msgid "Item 1"
@@ -28620,7 +28620,7 @@ msgstr "A(z) {0} tételből nem rendelhető több mint {1} a(z) {2} keretrendel�
 
 #: erpnext/stock/services/internal_transfer.py:104
 msgid "Item {0} cannot be received in more than {1} qty against the {2} {3}"
-msgstr ""
+msgstr "A(z) {0} cikk nem vételezhető be {1}-nál nagyobb mennyiségben a(z) {2} {3} ellenében"
 
 #: erpnext/assets/doctype/asset/asset.py:347
 #: erpnext/stock/doctype/item/item.py:698
@@ -28667,7 +28667,7 @@ msgstr "Tétel: {0} - figyelmen kívül hagyva, mivel ez nem egy készletezhető
 
 #: erpnext/stock/get_item_details.py:437
 msgid "Item {0} is a template, please select one of its variants"
-msgstr ""
+msgstr "A(z) {0} cikk egy sablon, kérjük, válassza ki valamelyik variánsát"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:647
 msgid "Item {0} is already reserved/delivered against Sales Order {1}."
@@ -28995,7 +28995,7 @@ msgstr "A Job Card {0} befejeződött"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1521
 msgid "Job Card {0} is already running. Open its machine or work order to pause or complete it."
-msgstr ""
+msgstr "A(z) {0} munkakártya már fut. A szüneteltetéshez vagy befejezéshez nyissa meg a gépét vagy a gyártási utasítását."
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1516
 #: erpnext/public/js/shop_floor/shop_floor.js:1537
@@ -29012,11 +29012,11 @@ msgstr "A {0} munkakártya nem található."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1532
 msgid "Job Card {0}: As per the sequence of the operations in the work order {1}, complete the operation {2} before the operation {3}."
-msgstr ""
+msgstr "{0} munkakártya: a(z) {1} gyártási utasítás műveleteinek sorrendje szerint fejezze be a(z) {2} műveletet a(z) {3} művelet előtt."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1560
 msgid "Job Card {0}: As per the sequence of the operations in the work order {1}, submit the manufacturing entry for the operation {2} before the operation {3}."
-msgstr ""
+msgstr "{0} munkakártya: a(z) {1} gyártási utasítás műveleteinek sorrendje szerint véglegesítse a(z) {2} művelet gyártási tételét a(z) {3} művelet előtt."
 
 #: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.js:17
 msgid "Job Started"
@@ -29966,7 +29966,7 @@ msgstr "A vevőhöz kapcsolás sikertelen. Kérjük, próbálja újra."
 
 #: erpnext/selling/doctype/customer/customer.js:291
 msgid "Linking to Supplier failed. Please try again."
-msgstr ""
+msgstr "A beszállítóhoz kapcsolás nem sikerült. Kérjük, próbálja újra."
 
 #: erpnext/accounts/report/financial_ratios/financial_ratios.js:55
 #: erpnext/accounts/report/financial_ratios/financial_ratios.py:152
@@ -29999,7 +29999,7 @@ msgstr "Számlák betöltése! Kérjük, várjon..."
 
 #: erpnext/public/js/shop_floor/shop_floor.js:987
 msgid "Loading quality checklist..."
-msgstr ""
+msgstr "Minőségi ellenőrzőlista betöltése..."
 
 #. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
 #. Account'
@@ -30597,7 +30597,7 @@ msgstr "Különbözeti bejegyzés generálása"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1135
 msgid "Make Manufacture Entry"
-msgstr ""
+msgstr "Gyártási tétel létrehozása"
 
 #. Label of the make_payment_via_journal_entry (Check) field in DocType
 #. 'Accounts Settings'
@@ -31015,11 +31015,11 @@ msgstr "Gyártás Felhasználó"
 #. Default'
 #: erpnext/stock/doctype/item_default/item_default.json
 msgid "Manufacturing Variance Account"
-msgstr ""
+msgstr "Gyártási eltérés számla"
 
 #: erpnext/stock/doctype/stock_entry/services/gl_composer.py:72
 msgid "Manufacturing Variance for {0}"
-msgstr ""
+msgstr "Gyártási eltérés a következőhöz: {0}"
 
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.js:106
 msgid "Mapping Subcontracting Inward Order ..."
@@ -31561,7 +31561,7 @@ msgstr "Az anyagok már beérkeztek ehhez: {0} {1}"
 #: erpnext/manufacturing/doctype/job_card/job_card.py:198
 #: erpnext/manufacturing/doctype/job_card/job_card.py:911
 msgid "Materials need to be transferred to the work in progress warehouse for the job card {0}"
-msgstr ""
+msgstr "Az anyagokat át kell adni a befejezetlen termelés raktárába a(z) {0} munkakártyához"
 
 #. Label of the max_amount (Currency) field in DocType 'Bank Transaction Rule'
 #. Label of the max_amount (Currency) field in DocType 'Promotional Scheme
@@ -32185,7 +32185,7 @@ msgstr "Hiányzó kötelező szűrő"
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:671
 msgid "Missing Serial / Batch Nos will be created on Save"
-msgstr ""
+msgstr "A hiányzó sorozatszámok / kötegszámok mentéskor jönnek létre"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:308
 msgid "Missing Serial No Bundle"
@@ -32461,7 +32461,7 @@ msgstr "Több számla (naplósablon)"
 
 #: erpnext/selling/doctype/customer/customer.py:459
 msgid "Multiple Loyalty Programs found for Customer {0}. Please select manually."
-msgstr ""
+msgstr "Több hűségprogram található a(z) {0} vevőhöz. Kérjük, válasszon kézzel."
 
 #: erpnext/accounts/doctype/sales_invoice/services/pos.py:253
 msgid "Multiple POS Opening Entry"
@@ -32469,7 +32469,7 @@ msgstr "Több POS nyitó tétel"
 
 #: erpnext/accounts/doctype/pricing_rule/utils.py:349
 msgid "Multiple Price Rules exist with same criteria, please resolve conflict by assigning priority. Price Rules: {0}"
-msgstr ""
+msgstr "Több árazási szabály létezik azonos feltételekkel; kérjük, oldja fel az ütközést prioritás megadásával. Árazási szabályok: {0}"
 
 #. Option for the 'Loyalty Program Type' (Select) field in DocType 'Loyalty
 #. Program'
@@ -33092,7 +33092,7 @@ msgstr "Új értékesítési számla"
 #. Credit Limit'
 #: erpnext/selling/doctype/customer_credit_limit/customer_credit_limit.json
 msgid "New Sales Invoices are blocked when the customer's overdue amount exceeds this. Requires 'Restrict Customer Over Billing' in Accounts Settings."
-msgstr ""
+msgstr "Az új értékesítési számlák letiltásra kerülnek, ha a vevő késedelmes összege meghaladja ezt. Ehhez a Számviteli beállításokban be kell kapcsolni a 'Vevői túlszámlázás korlátozása' opciót."
 
 #. Label of the sales_order (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -33128,7 +33128,7 @@ msgstr "Új munkahely"
 
 #: erpnext/selling/doctype/customer/customer.py:424
 msgid "New credit limit is less than current outstanding amount for the customer. Credit limit has to be at least {0}"
-msgstr ""
+msgstr "Az új hitelkeret kisebb a vevő jelenlegi fennálló tartozásánál. A hitelkeretnek legalább {0} értékűnek kell lennie"
 
 #. Description of the 'Bill Even If Previous Invoice Unpaid' (Check) field in
 #. DocType 'Subscription'
@@ -33227,7 +33227,7 @@ msgstr "Nem található vevő a kiválasztott beállításokkal."
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:146
 msgid "No Delivery Note selected for Customer {0}"
-msgstr ""
+msgstr "Nincs kiválasztott szállítólevél a(z) {0} vevőhöz"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:772
 msgid "No DocTypes in To Delete list. Please generate or import the list before submitting."
@@ -33290,7 +33290,7 @@ msgstr "Nincs jogosultság"
 
 #: erpnext/accounts/bulk_payment.py:18
 msgid "No Purchase Invoices selected"
-msgstr ""
+msgstr "Nincs kiválasztott bejövő számla"
 
 #: erpnext/manufacturing/doctype/production_plan/services/work_order_planning.py:116
 msgid "No Purchase Orders were created"
@@ -33298,7 +33298,7 @@ msgstr "Nem jöttek létre beszerzési rendelések"
 
 #: erpnext/manufacturing/page/shop_floor/shop_floor.py:245
 msgid "No Quality Inspection Template is configured for this operation."
-msgstr ""
+msgstr "Ehhez a művelethez nincs beállítva minőségellenőrzési sablon."
 
 #: erpnext/public/js/utils/unreconcile.js:147
 msgid "No Selection"
@@ -33388,7 +33388,7 @@ msgstr "Nincs elérhető további mező"
 
 #: erpnext/crm/doctype/appointment/appointment.py:104
 msgid "No availability of slots are found. Please add on Appointment Booking Settings."
-msgstr ""
+msgstr "Nincs elérhető idősáv. Kérjük, vegyen fel az Időpontfoglalási beállításokban."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1429
 msgid "No available quantity to reserve for item {0} in warehouse {1}"
@@ -33568,7 +33568,7 @@ msgstr "Műszakok száma"
 #. Label of the no_of_shifts (Int) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "No of Shifts"
-msgstr ""
+msgstr "Műszakok száma"
 
 #. Label of the no_of_units_produced (Int) field in DocType 'Item Lead Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
@@ -33603,7 +33603,7 @@ msgstr "Nincs nyitott feladat"
 
 #: erpnext/accounts/bulk_payment.py:127
 msgid "No outstanding amount for the selected invoice(s)."
-msgstr ""
+msgstr "A kiválasztott számlá(k)hoz nincs fennálló összeg."
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:360
 msgid "No outstanding invoices found"
@@ -33695,7 +33695,7 @@ msgstr "Még nincsenek beállított szabályok"
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:620
 msgid "No stock available for Item {0} in Warehouse {1}"
-msgstr ""
+msgstr "Nincs elérhető készlet a(z) {0} cikkből a(z) {1} raktárban"
 
 #: erpnext/stock/doctype/batch/batch.js:77
 msgid "No stock available for this batch."
@@ -33740,7 +33740,7 @@ msgstr "Ehhez a tranzakcióhoz nem találhatók bizonylatok"
 
 #: erpnext/stock/doctype/item/item.py:1813
 msgid "No warehouse found for company {0}. Please set a Default Warehouse in Item Defaults or Company."
-msgstr ""
+msgstr "Nem található raktár a(z) {0} céghez. Kérjük, állítson be alapértelmezett raktárat a Cikk alapértékekben vagy a Cégnél."
 
 #: erpnext/public/js/shop_floor/shop_floor.js:329
 msgid "No work orders here."
@@ -33855,7 +33855,7 @@ msgstr "Nem szállított"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:484
 msgid "Not Free to Pick"
-msgstr ""
+msgstr "Nem vehető ki szabadon"
 
 #. Option for the 'Advance Payment Status' (Select) field in DocType 'Purchase
 #. Order'
@@ -33945,7 +33945,7 @@ msgstr "Nincs jogosultság a Job Card olvasásához"
 
 #: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:94
 msgid "Not permitted to update Serial No"
-msgstr ""
+msgstr "A sorozatszám módosítása nem engedélyezett"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log_list.js:21
 msgid "Note: Automatic log deletion only applies to logs of type <i>Update Cost</i>"
@@ -34031,11 +34031,11 @@ msgstr "Nincs mást mutatnak."
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1333
 msgid "Nothing to order from the selected rows"
-msgstr ""
+msgstr "A kiválasztott sorokból nincs mit rendelni"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1331
 msgid "Nothing to order, the selected rows are already covered by stock or existing orders"
-msgstr ""
+msgstr "Nincs mit rendelni, a kiválasztott sorokat már fedezi a készlet vagy meglévő rendelés"
 
 #. Label of the notice_number_of_days (Int) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -34364,7 +34364,7 @@ msgstr "A stock transaction beküldésekor a rendszer automatikusan létrehozza 
 
 #: erpnext/stock/doctype/item_standard_cost/item_standard_cost.js:39
 msgid "On submission, stock transactions for Item {0} cannot be posted with a date before {1} — backdated entries will be blocked."
-msgstr ""
+msgstr "Véglegesítéskor a(z) {0} cikk készlettranzakciói nem könyvelhetők {1} előtti dátummal — a visszadátumozott tételek le lesznek tiltva."
 
 #. Option for the 'Stop Reason' (Select) field in DocType 'Downtime Entry'
 #: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
@@ -34391,7 +34391,7 @@ msgstr ""
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.js:39
 msgid "One customer can be part of only a single Loyalty Program."
-msgstr ""
+msgstr "Egy vevő csak egyetlen hűségprogram tagja lehet."
 
 #. Option for the 'Status' (Select) field in DocType 'Subcontracting Inward
 #. Order'
@@ -34454,7 +34454,7 @@ msgstr "Csak fizetési tételhez elérhető érték"
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:216
 msgid "Only an issued Proforma Invoice can be emailed."
-msgstr ""
+msgstr "Csak kiállított proforma számla küldhető el e-mailben."
 
 #. Description of the 'Posting Date inheritance for exchange gain / loss'
 #. (Select) field in DocType 'Accounts Settings'
@@ -34483,7 +34483,7 @@ msgstr "Csak levélcsomópontok engedélyezettek a tranzakcióban"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:756
 msgid "Only one component can be marked as Balance Item."
-msgstr ""
+msgstr "Csak egy komponens jelölhető meg egyenlegtételként."
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:352
 msgid "Only one of Deposit or Withdrawal should be non-zero when applying an Excluded Fee."
@@ -34514,7 +34514,7 @@ msgstr "Csak ezeknek a tételcsoportoknak a tételeit mutassa"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:178
 msgid "Only show work orders that have job cards"
-msgstr ""
+msgstr "Csak azok a gyártási utasítások jelenjenek meg, amelyekhez van munkakártya"
 
 #. Description of the 'Customer' (Link) field in DocType 'Warehouse'
 #: erpnext/stock/doctype/warehouse/warehouse.json
@@ -34541,7 +34541,7 @@ msgstr "Csak ezek támogatottak: {0}"
 
 #: erpnext/manufacturing/doctype/work_order/services/required_items.py:240
 msgid "Only {0} {1} of {2} is pending in Work Order {3}."
-msgstr ""
+msgstr "A(z) {3} gyártási utasításban csak {0} {1} van függőben a(z) {2}-ból."
 
 #. Label of the open_activities_html (HTML) field in DocType 'Lead'
 #. Label of the open_activities_html (HTML) field in DocType 'Opportunity'
@@ -34662,7 +34662,7 @@ msgstr "Beállítások párbeszédablak megnyitása"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1460
 msgid "Open work order / run primary action"
-msgstr ""
+msgstr "Gyártási utasítás megnyitása / elsődleges művelet futtatása"
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:336
 msgid "Open {0} in a new tab"
@@ -34805,7 +34805,7 @@ msgstr "Könyvelt értékcsökkenések nyitó száma"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:36
 msgid "Opening Purchase Invoice(s) have been created."
-msgstr ""
+msgstr "A nyitó bejövő számlá(k) létrejöttek."
 
 #: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:81
 #: erpnext/stock/report/stock_balance/stock_balance.py:533
@@ -34814,7 +34814,7 @@ msgstr "Nyitó Mennyiség"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:35
 msgid "Opening Sales Invoice(s) have been created."
-msgstr ""
+msgstr "A nyitó értékesítési számlá(k) létrejöttek."
 
 #. Label of the opening_stock (Float) field in DocType 'Item'
 #. Option for the 'Purpose' (Select) field in DocType 'Stock Reconciliation'
@@ -35000,15 +35000,15 @@ msgstr "A(z) {0} művelet nem tartozik a(z) {1} munkarendeléshez."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:575
 msgid "Operation {0} is added multiple times in the work order {1}"
-msgstr ""
+msgstr "A(z) {0} művelet többször szerepel a(z) {1} gyártási utasításban"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1420
 msgid "Operation {0} is added multiple times in the work order {1}. Please select the operation row."
-msgstr ""
+msgstr "A(z) {0} művelet többször szerepel a(z) {1} gyártási utasításban. Kérjük, válassza ki a művelet sorát."
 
 #: erpnext/manufacturing/doctype/workstation/workstation.py:384
 msgid "Operation {0} is longer than any available working hours in workstation {1}, break down the operation into multiple operations"
-msgstr ""
+msgstr "A(z) {0} művelet hosszabb, mint bármely elérhető munkaidő a(z) {1} munkaállomáson; bontsa fel a műveletet több műveletre"
 
 #. Label of the operations (Table) field in DocType 'BOM'
 #. Label of the operations_section_section (Section Break) field in DocType
@@ -35046,7 +35046,7 @@ msgstr "Operátor"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:213
 msgid "Operator Dashboard"
-msgstr ""
+msgstr "Kezelői irányítópult"
 
 #: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:22
 #: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:27
@@ -35209,7 +35209,7 @@ msgstr "Útvonal optimalizálása"
 #. 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Optional group warehouse. Raw material availability is checked across its child warehouses; material is still received into For Warehouse."
-msgstr ""
+msgstr "Opcionális csoportraktár. Az alapanyag elérhetőségét az alá tartozó raktárakban ellenőrzi; az anyag bevételezése továbbra is a célraktárba történik."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1094
 msgid "Optional. Select a specific manufacture entry to reverse."
@@ -35705,15 +35705,15 @@ msgstr "Lejárt napok"
 #. Credit Limit'
 #: erpnext/selling/doctype/customer_credit_limit/customer_credit_limit.json
 msgid "Overdue Limit"
-msgstr ""
+msgstr "Késedelmi limit"
 
 #: erpnext/selling/doctype/customer/customer.py:609
 msgid "Overdue Limit Crossed"
-msgstr ""
+msgstr "Késedelmi limit átlépve"
 
 #: erpnext/selling/doctype/customer/customer.py:604
 msgid "Overdue Limit crossed for customer {0}. Overdue amount {1} exceeds the allowed limit {2}."
-msgstr ""
+msgstr "Késedelmi limit átlépve a(z) {0} vevőnél. A késedelmes összeg ({1}) meghaladja a megengedett limitet ({2})."
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/overdue_payment/overdue_payment.json
@@ -35944,7 +35944,7 @@ msgstr "Pénztár számla nincs benyújtva"
 
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:130
 msgid "POS Invoice isn't created by user {0}"
-msgstr ""
+msgstr "A POS-számlát nem a(z) {0} felhasználó hozta létre"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:208
 msgid "POS Invoice should have the field {0} checked."
@@ -36068,7 +36068,7 @@ msgstr "POS profil felhasználója"
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:124
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:189
 msgid "POS Profile doesn't match {0}"
-msgstr ""
+msgstr "A POS-profil nem egyezik ezzel: {0}"
 
 #: erpnext/accounts/doctype/sales_invoice/services/pos.py:210
 msgid "POS Profile is mandatory to mark this invoice as POS Transaction."
@@ -36080,19 +36080,19 @@ msgstr "A POS Profile {0} nem tiltható le, mert vannak folyamatban lévő POS s
 
 #: erpnext/accounts/doctype/mode_of_payment/mode_of_payment.py:62
 msgid "POS Profile {0} contains Mode of Payment {1}. Please remove them to disable this mode."
-msgstr ""
+msgstr "A(z) {0} POS-profil tartalmazza a(z) {1} fizetési módot. A mód letiltásához távolítsa el."
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:58
 msgid "POS Profile {0} does not belong to company {1}"
-msgstr ""
+msgstr "A(z) {0} POS-profil nem tartozik a(z) {1} céghez"
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:47
 msgid "POS Profile {0} does not exist."
-msgstr ""
+msgstr "A(z) {0} POS-profil nem létezik."
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:54
 msgid "POS Profile {0} is disabled."
-msgstr ""
+msgstr "A(z) {0} POS-profil le van tiltva."
 
 #. Name of a report
 #: erpnext/accounts/report/pos_register/pos_register.json
@@ -36637,7 +36637,7 @@ msgstr "Részben egyeztetett"
 #. Option for the 'Status' (Select) field in DocType 'Repost Accounting Ledger'
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.json
 msgid "Partially Reposted"
-msgstr ""
+msgstr "Részben újrakönyvelve"
 
 #. Option for the 'Status' (Select) field in DocType 'Stock Reservation Entry'
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
@@ -37048,11 +37048,11 @@ msgstr "Partner megadása kötelező"
 
 #: erpnext/accounts/doctype/bank_transaction_rule/bank_transaction_rule.py:111
 msgid "Party is required to create a payment entry."
-msgstr ""
+msgstr "A fizetési tétel létrehozásához partner megadása kötelező."
 
 #: erpnext/controllers/queries.py:231
 msgid "Party query filters must be a dictionary"
-msgstr ""
+msgstr "A partner lekérdezési szűrőknek szótárnak kell lenniük"
 
 #: erpnext/accounts/doctype/bank_transaction_rule/bank_transaction_rule.py:108
 msgid "Party type is required to create a payment entry."
@@ -37174,7 +37174,7 @@ msgstr "Szállítói kötelezettségek számlája"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:297
 msgid "Payable Amount"
-msgstr ""
+msgstr "Fizetendő összeg"
 
 #. Label of the payables (Check) field in DocType 'Email Digest'
 #. Label of a Workspace Sidebar Item
@@ -37291,7 +37291,7 @@ msgstr "Fizetési bejegyzések"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:367
 msgid "Payment Entries are created as drafts for your review"
-msgstr ""
+msgstr "A fizetési tételek piszkozatként jönnek létre az Ön ellenőrzésére"
 
 #: erpnext/accounts/utils.py:1161
 msgid "Payment Entries {0} are un-linked"
@@ -37426,7 +37426,7 @@ msgstr "Fizetési limit"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:600
 msgid "Payment Link couldn't be sent."
-msgstr ""
+msgstr "A fizetési link nem küldhető el."
 
 #: erpnext/accounts/report/pos_register/pos_register.js:50
 #: erpnext/accounts/report/pos_register/pos_register.py:135
@@ -37776,7 +37776,7 @@ msgstr "Fizetési mód"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:628
 msgid "Payment Type must be one of Receive, Pay, or Internal Transfer"
-msgstr ""
+msgstr "A fizetés típusa csak Bevételezés, Kifizetés vagy Belső átvezetés lehet"
 
 #. Label of the payment_url (Data) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
@@ -38565,7 +38565,7 @@ msgstr "Terv megnevezése"
 #. Label of the plan_row (Data) field in DocType 'Production Plan Schedule'
 #: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
 msgid "Plan Row"
-msgstr ""
+msgstr "Terv sor"
 
 #. Description of the 'Use Multi-Level BOM' (Check) field in DocType 'Work
 #. Order'
@@ -38608,7 +38608,7 @@ msgstr "Tervezett befejezési dátum"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:325
 msgid "Planned End Date cannot be before Planned Start Date"
-msgstr ""
+msgstr "A tervezett befejezés nem lehet a tervezett kezdés előtt"
 
 #. Label of the planned_end_time (Datetime) field in DocType 'Work Order
 #. Operation'
@@ -38761,7 +38761,7 @@ msgstr "Adjon ideiglenes megnyitó számlát a számlatükörhöz"
 
 #: erpnext/crm/doctype/appointment/appointment.py:96
 msgid "Please add a valid Holiday List on Appointment Booking Settings."
-msgstr ""
+msgstr "Kérjük, adjon meg érvényes munkaszüneti nap listát az Időpontfoglalási beállításokban."
 
 #: erpnext/accounts/doctype/bank_transaction_rule/bank_transaction_rule.py:119
 msgid "Please add an account for the Bank Entry rule."
@@ -38769,11 +38769,11 @@ msgstr "Kérjük, adjon hozzá számlát a banki tétel szabályához."
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:673
 msgid "Please add at least one Serial No / Batch No"
-msgstr ""
+msgstr "Kérjük, adjon meg legalább egy sorozatszámot / tételszámot"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/inline_editor.py:132
 msgid "Please add at least one Serial No or Batch to save"
-msgstr ""
+msgstr "A mentéshez adjon meg legalább egy sorozatszámot vagy tételt"
 
 #: erpnext/stock/doctype/item/item.js:1001
 msgid "Please add at least one row in Item Defaults with a Company before setting opening stock."
@@ -38781,7 +38781,7 @@ msgstr "Opening stock beállítása előtt adj hozzá legalább egy sort az Item
 
 #: erpnext/crm/doctype/crm_settings/crm_settings.py:53
 msgid "Please add at least one user on Allowed Users to allow Data Synchronization from Frappe CRM site."
-msgstr ""
+msgstr "Kérjük, adjon hozzá legalább egy felhasználót az Engedélyezett felhasználókhoz a CRM-oldalról történő adatszinkronizáció engedélyezéséhez."
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.py:84
 msgid "Please add the Bank Account column"
@@ -38868,7 +38868,7 @@ msgstr "Kérjük, kattintson a 'Ütemterv létrehozás', hogy ütemezzen"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1074
 msgid "Please complete every check before submitting the inspection."
-msgstr ""
+msgstr "Kérjük, végezzen el minden ellenőrzést az ellenőrzés véglegesítése előtt."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:58
 msgid "Please complete the job first before entering Pending Quantity"
@@ -38880,7 +38880,7 @@ msgstr "Kérjük, konfigurálja a számlákat a banki tétel szabályához."
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:354
 msgid "Please contact any of the following users for this transaction."
-msgstr ""
+msgstr "Kérjük, ehhez a tranzakcióhoz vegye fel a kapcsolatot az alábbi felhasználók valamelyikével."
 
 #: erpnext/selling/doctype/customer/customer.py:550
 msgid "Please contact any of the following users to extend the credit limits for {0}: {1}"
@@ -38964,11 +38964,11 @@ msgstr "Kérjük, ellenőrizze, hogy a(z) {0} account {1} Payable account. Az ac
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:769
 msgid "Please ensure {0} account is a Balance Sheet account."
-msgstr ""
+msgstr "Kérjük, győződjön meg róla, hogy a(z) {0} számla mérlegszámla."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:779
 msgid "Please ensure {0} account {1} is a Receivable account."
-msgstr ""
+msgstr "Kérjük, győződjön meg róla, hogy a(z) {0} {1} számla követelésszámla."
 
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.py:141
 msgid "Please enter <b>Difference Account</b> or set default <b>Stock Adjustment Account</b> for company {0}"
@@ -39068,7 +39068,7 @@ msgstr "Kérjük, adja meg a Leíráshoz használt számlát"
 #: erpnext/public/js/sales_order_proforma.js:215
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:179
 msgid "Please enter a quantity or amount for at least one item."
-msgstr ""
+msgstr "Kérjük, adjon meg mennyiséget vagy összeget legalább egy cikkhez."
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:561
 msgid "Please enter a valid Write Off Account"
@@ -39160,11 +39160,11 @@ msgstr "Kérjük, töltse ki az Értékesítési rendelések táblázatot"
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:57
 msgid "Please fill up the Availability of Slots table to enable Appointment Scheduling."
-msgstr ""
+msgstr "Kérjük, töltse ki az Idősávok elérhetősége táblázatot az időpont-ütemezés engedélyezéséhez."
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:226
 msgid "Please find attached the proforma invoice {0}."
-msgstr ""
+msgstr "Mellékelten küldjük a(z) {0} proforma számlát."
 
 #: erpnext/stock/doctype/shipment/shipment.js:280
 msgid "Please first set Full Name, Email and Phone for the user"
@@ -39188,7 +39188,7 @@ msgstr "Beküldés előtt generálja a törlendő listát"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:67
 msgid "Please import accounts against parent company or enable {0} in company master."
-msgstr ""
+msgstr "Kérjük, importálja a számlákat az anyacégre, vagy engedélyezze a(z) {0} opciót a cég törzsadatában."
 
 #: erpnext/setup/doctype/employee/employee.py:291
 msgid "Please make sure the employees above report to another Active employee."
@@ -39286,7 +39286,7 @@ msgstr "Kérjük, válasszon Vállalkozást először"
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:157
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:76
 msgid "Please select Company and Posting Date to get entries"
-msgstr ""
+msgstr "Kérjük, válasszon céget és könyvelési dátumot a tételek lekéréséhez"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:443
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:28
@@ -39319,7 +39319,7 @@ msgstr "Először válassza az Elem kódot"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1756
 msgid "Please select Items from the Table"
-msgstr ""
+msgstr "Kérjük, válasszon tételeket a táblázatból"
 
 #: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.py:55
 msgid "Please select Maintenance Status as Completed or remove Completion Date"
@@ -39355,7 +39355,7 @@ msgstr "Kérjük, válassza ki a mennyiséget az {0} tételhez"
 
 #: erpnext/stock/doctype/item/item.py:393
 msgid "Please select Sample Retention Warehouse in Company first"
-msgstr ""
+msgstr "Kérjük, először állítsa be a mintamegőrző raktárat a Cégnél"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:484
 msgid "Please select Serial/Batch Nos to reserve or change Reservation Based On to Qty."
@@ -39371,7 +39371,7 @@ msgstr "Kérjük, válassza ki a készleteszköz-számlát"
 
 #: erpnext/setup/doctype/company/company.py:238
 msgid "Please select Stock Delivered But Not Billed Account"
-msgstr ""
+msgstr "Kérjük, válassza ki a Kiszállított, de nem számlázott készlet számlát"
 
 #: erpnext/accounts/services/internal_transfer.py:47
 msgid "Please select Unrealized Profit / Loss account or add default Unrealized Profit / Loss account account for company {0}"
@@ -39406,7 +39406,7 @@ msgstr "Kérjük, válasszon szállítólevelet"
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:81
 msgid "Please select a Holiday List to enable Appointment Scheduling."
-msgstr ""
+msgstr "Kérjük, válasszon munkaszüneti nap listát az időpont-ütemezés engedélyezéséhez."
 
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:152
 msgid "Please select a Subcontracting Purchase Order."
@@ -39652,7 +39652,7 @@ msgstr "Kérem állítson be Főkönyvi számlát ehhez a raktárhoz: {0} vagy a
 
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:333
 msgid "Please set Accounting Dimension {0} in {1}"
-msgstr ""
+msgstr "Kérjük, állítsa be a(z) {0} számviteli dimenziót itt: {1}"
 
 #: erpnext/accounts/doctype/ledger_merge/ledger_merge.js:23
 #: erpnext/accounts/doctype/ledger_merge/ledger_merge.js:34
@@ -39694,7 +39694,7 @@ msgstr "Kérjük, állítsa be a tárgyi eszköz főkönyvi számlát a(z) {0} e
 
 #: erpnext/accounts/doctype/purchase_invoice/services/expense_account.py:151
 msgid "Please set Fixed Asset Account in {0} against {1}."
-msgstr ""
+msgstr "Kérjük, állítsa be a tárgyi eszköz számlát a(z) {0} elemben a(z) {1} ellenében."
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:296
 msgid "Please set Parent Row No for item {0}"
@@ -39704,7 +39704,7 @@ msgstr "Kérjük, állítsa be a forrás sorszámát a {0} tételhez"
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:656
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:752
 msgid "Please set Rejected Warehouse first"
-msgstr ""
+msgstr "Kérjük, először állítsa be az elutasítási raktárat"
 
 #: erpnext/accounts/doctype/ledger_merge/ledger_merge.js:24
 #: erpnext/accounts/doctype/ledger_merge/ledger_merge.js:35
@@ -39737,7 +39737,7 @@ msgstr "Kérjük, állítson be egy vállalatot"
 
 #: erpnext/assets/doctype/asset/asset.py:378
 msgid "Please set a Cost Center for the Asset or set an Asset Depreciation Cost Center for the Company {0}"
-msgstr ""
+msgstr "Kérjük, állítson be költséghelyet az eszközhöz, vagy adjon meg eszköz-értékcsökkenési költséghelyet a(z) {0} cégnél"
 
 #: erpnext/stock/doctype/item_standard_cost/item_standard_cost.py:371
 msgid "Please set a Manufacturing Variance Account for Item {0} or a Default Manufacturing Variance Account in Company {1}."
@@ -39799,11 +39799,11 @@ msgstr "Kérjük, állítsda be az alapértelmezett Készpénz vagy bankszámlá
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:207
 #: erpnext/accounts/doctype/sales_invoice/services/pos.py:369
 msgid "Please set default Cash or Bank account in Mode of Payments {0}"
-msgstr ""
+msgstr "Kérjük, állítson be alapértelmezett pénztár- vagy bankszámlát a(z) {0} fizetési módban"
 
 #: erpnext/accounts/utils.py:2589
 msgid "Please set default Exchange Gain/Loss Account in Company {0}"
-msgstr ""
+msgstr "Kérjük, állítson be alapértelmezett árfolyamnyereség/-veszteség számlát a(z) {0} cégnél"
 
 #: erpnext/assets/doctype/asset_repair/services/gl_composer.py:92
 msgid "Please set default Expense Account in Company {0}"
@@ -39896,7 +39896,7 @@ msgstr "Kérjük, állítsa be ezt: {0} ebben a BOM Creator rekordban: {1}"
 #: erpnext/controllers/buying_controller.py:344
 #: erpnext/stock/services/base_stock_gl_composer.py:212
 msgid "Please set {0} in Company {1} or in the Item Defaults of Item {2}"
-msgstr ""
+msgstr "Kérjük, állítsa be a(z) {0} értéket a(z) {1} cégnél vagy a(z) {2} cikk alapértékeiben"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1157
 msgid "Please set {0} in Company {1} to account for Exchange Gain / Loss"
@@ -39904,7 +39904,7 @@ msgstr "Kérjük, állítsa be a(z) {0} értéket a Company {1} rekordban az Exc
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1495
 msgid "Please set {0} in Company {1} to retain samples."
-msgstr ""
+msgstr "Kérjük, állítsa be a(z) {0} értéket a(z) {1} cégnél a minták megőrzéséhez."
 
 #: erpnext/controllers/accounts_controller.py:524
 msgid "Please set {0} to {1}, the same account that was used in the original invoice {2}."
@@ -39951,11 +39951,11 @@ msgstr "Kérjük adjon meg tól/ig tartományt"
 
 #: erpnext/public/js/controllers/transaction.js:2649
 msgid "Please specify {0}. It is needed to fetch Item Details."
-msgstr ""
+msgstr "Kérjük, adja meg a(z) {0} értéket. Szükséges a cikk adatainak lekéréséhez."
 
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:142
 msgid "Please submit Purchase Order {0} before proceeding."
-msgstr ""
+msgstr "Kérjük, a folytatás előtt véglegesítse a(z) {0} beszerzési rendelést."
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:284
 msgid "Please try again in an hour."
@@ -40056,7 +40056,7 @@ msgstr "Utasítás cím kulcs"
 
 #: erpnext/stock/stock_ledger.py:98
 msgid "Post this entry on or after {0}."
-msgstr ""
+msgstr "Könyvelje ezt a tételt {0} napra vagy azt követően."
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:126
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:206
@@ -40189,7 +40189,7 @@ msgstr "Könyvelési dátum"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:263
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:146
 msgid "Posting Date cannot be a future date"
-msgstr ""
+msgstr "A könyvelési dátum nem lehet jövőbeli dátum"
 
 #. Label of the exchange_gain_loss_posting_date (Select) field in DocType
 #. 'Accounts Settings'
@@ -40391,7 +40391,7 @@ msgstr "Készletbejegyzés létrehozása..."
 
 #: erpnext/accounts/report/general_ledger/general_ledger.py:682
 msgid "Presentation Currency cannot be {0}, when {1} is enabled."
-msgstr ""
+msgstr "A megjelenítési pénznem nem lehet {0}, ha a(z) {1} engedélyezve van."
 
 #: erpnext/setup/setup_wizard/data/designation.txt:24
 msgid "President"
@@ -40435,7 +40435,7 @@ msgstr "Árajánlatkérések megakadályozása"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Prevent Sales Invoice when Customer is Overdue"
-msgstr ""
+msgstr "Értékesítési számla tiltása, ha a vevő késedelmes"
 
 #. Option for the 'Corrective/Preventive' (Select) field in DocType 'Quality
 #. Action'
@@ -41195,7 +41195,7 @@ msgstr "Folyamatveszteség mennyisége"
 #: erpnext/manufacturing/doctype/job_card/job_card.js:376
 #: erpnext/public/js/shop_floor/shop_floor.js:888
 msgid "Process Loss Quantity cannot be greater than {0}"
-msgstr ""
+msgstr "A gyártási veszteség mennyisége nem lehet nagyobb, mint {0}"
 
 #. Name of a report
 #: erpnext/manufacturing/report/process_loss_report/process_loss_report.json
@@ -41275,7 +41275,7 @@ msgstr "Feldolgozás egyetlen tranzakcióban"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1173
 msgid "Process loss booked against the operations of this work order."
-msgstr ""
+msgstr "A gyártási veszteség ennek a gyártási utasításnak a műveleteire könyvelve."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1768
 msgid "Process loss quantity cannot be negative."
@@ -41603,11 +41603,11 @@ msgstr "Vevői rendelés Legyártási terve"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
 msgid "Production Plan Schedule"
-msgstr ""
+msgstr "Gyártási terv ütemezése"
 
 #: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.py:42
 msgid "Production Plan Schedule entries cannot be created manually. Use the Schedule Items action on the Production Plan."
-msgstr ""
+msgstr "A gyártásiterv-ütemezési tételek nem hozhatók létre kézzel. Használja a 'Tételek ütemezése' műveletet a gyártási terven."
 
 #. Label of the production_plan_sub_assembly_item (Data) field in DocType
 #. 'Purchase Order Item'
@@ -41640,7 +41640,7 @@ msgstr "Gyártástervezési jelentés"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:146
 msgid "Production Schedule"
-msgstr ""
+msgstr "Gyártási ütemterv"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:42
 msgid "Products"
@@ -41738,7 +41738,7 @@ msgstr "Díjbekérő számla tétel"
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:235
 msgid "Proforma Invoice is not enabled in Selling Settings."
-msgstr ""
+msgstr "A proforma számla nincs engedélyezve az Értékesítési beállításokban."
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:225
 msgid "Proforma Invoice {0}"
@@ -42358,7 +42358,7 @@ msgstr "Beszerzési számlák alakulása"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:368
 msgid "Purchase Invoice can be held after submitting."
-msgstr ""
+msgstr "A bejövő számla véglegesítés után tartható vissza."
 
 #: erpnext/assets/doctype/asset/asset.py:340
 msgid "Purchase Invoice cannot be made against an existing asset {0}"
@@ -42366,7 +42366,7 @@ msgstr "Beszerzési számla nem vehető fel meglévő eszköz ellen {0}"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:900
 msgid "Purchase Invoice without any outstanding amount cannot be held."
-msgstr ""
+msgstr "Fennálló összeg nélküli bejövő számla nem tartható vissza."
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:990
 msgid "Purchase Invoices"
@@ -42565,11 +42565,11 @@ msgstr "Beszerzési árlista"
 #. Default'
 #: erpnext/stock/doctype/item_default/item_default.json
 msgid "Purchase Price Variance Account"
-msgstr ""
+msgstr "Beszerzési árkülönbözet számla"
 
 #: erpnext/stock/doctype/stock_entry/services/gl_composer.py:93
 msgid "Purchase Price Variance for {0}"
-msgstr ""
+msgstr "Beszerzési árkülönbözet a következőhöz: {0}"
 
 #. Label of the purchase_receipt (Link) field in DocType 'Purchase Invoice
 #. Item'
@@ -42655,7 +42655,7 @@ msgstr "Beszerzési megrendelés nyugta kötelező"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:538
 msgid "Purchase Receipt Required for item {0}"
-msgstr ""
+msgstr "Bevételezési bizonylat szükséges a(z) {0} cikkhez"
 
 #. Label of a Link in the Buying Workspace
 #. Name of a report
@@ -42675,7 +42675,7 @@ msgstr "Beszerzési nyugták alakulása "
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:356
 msgid "Purchase Receipt does not have any Item for which Retain Sample is enabled."
-msgstr ""
+msgstr "A bevételezési bizonylaton nincs olyan cikk, amelynél a Mintamegőrzés engedélyezve van."
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/mapper.py:137
 msgid "Purchase Receipt {0} created."
@@ -42845,19 +42845,19 @@ msgstr "4. negyedév"
 
 #: erpnext/public/js/templates/shop_floor_template.html:763
 msgid "QC Available"
-msgstr ""
+msgstr "Minőségellenőrzés elérhető"
 
 #: erpnext/public/js/templates/shop_floor_template.html:757
 msgid "QC Passed"
-msgstr ""
+msgstr "Minőségellenőrzés megfelelt"
 
 #: erpnext/public/js/templates/shop_floor_template.html:759
 msgid "QC Rejected"
-msgstr ""
+msgstr "Minőségellenőrzés elutasítva"
 
 #: erpnext/public/js/templates/shop_floor_template.html:761
 msgid "QC Required"
-msgstr ""
+msgstr "Minőségellenőrzés szükséges"
 
 #. Label of the free_qty (Float) field in DocType 'Pricing Rule'
 #. Label of the free_qty (Float) field in DocType 'Promotional Scheme Product
@@ -43023,7 +43023,7 @@ msgstr "Darabonként felhasznált mennyiség"
 
 #: erpnext/public/js/templates/shop_floor_template.html:888
 msgid "Qty Done"
-msgstr ""
+msgstr "Kész mennyiség"
 
 #. Label of the actual_qty (Float) field in DocType 'Material Request Plan
 #. Item'
@@ -43038,7 +43038,7 @@ msgstr "Mennyiség egységenként"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:105
 msgid "Qty To Correct"
-msgstr ""
+msgstr "Javítandó mennyiség"
 
 #. Label of the for_quantity (Float) field in DocType 'Job Card'
 #. Label of the qty (Float) field in DocType 'Work Order'
@@ -43121,7 +43121,7 @@ msgstr "Mennyiség készlet-ME-ben"
 #: erpnext/manufacturing/doctype/job_card/job_card.js:332
 #: erpnext/public/js/shop_floor/shop_floor.js:846
 msgid "Qty left for a later cycle or for another job card."
-msgstr ""
+msgstr "Egy későbbi ciklusra vagy másik munkakártyára maradt mennyiség."
 
 #. Label of the for_qty (Float) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.js:210
@@ -43142,7 +43142,7 @@ msgstr "Az alapanyagok mennyiségéről a késztermék mennyisége alapján dön
 #: erpnext/manufacturing/doctype/job_card/job_card.js:362
 #: erpnext/public/js/shop_floor/shop_floor.js:875
 msgid "Qty scrapped in this cycle, nobody will produce it."
-msgstr ""
+msgstr "Ebben a ciklusban selejtezett mennyiség, senki nem gyártja le."
 
 #. Label of the consumed_qty (Float) field in DocType 'Purchase Receipt Item
 #. Supplied'
@@ -43175,7 +43175,7 @@ msgstr "Lekérendő mennyiség"
 #: erpnext/manufacturing/doctype/job_card/job_card.js:286
 #: erpnext/public/js/shop_floor/shop_floor.js:800
 msgid "Qty to Manufacture in this Cycle"
-msgstr ""
+msgstr "Ebben a ciklusban gyártandó mennyiség"
 
 #. Label of the qty (Float) field in DocType 'Production Plan Sub Assembly
 #. Item'
@@ -43199,7 +43199,7 @@ msgstr "Mennyiség a fogadáshoz"
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:910
 msgid "Qty updated to {0} to match the Serial and Batch Bundle. Please save the document."
-msgstr ""
+msgstr "A mennyiség {0} értékre frissült a sorozatszám- és tételkötegnek megfelelően. Kérjük, mentse a dokumentumot."
 
 #. Label of the qualification_tab (Section Break) field in DocType 'Lead'
 #. Label of the qualification (Data) field in DocType 'Employee Education'
@@ -43411,7 +43411,7 @@ msgstr "Minőségi ellenőrzés sablonja"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:994
 msgid "Quality Inspection Template Missing"
-msgstr ""
+msgstr "Minőségellenőrzési sablon hiányzik"
 
 #. Label of the quality_inspection_template_name (Data) field in DocType
 #. 'Quality Inspection Template'
@@ -43425,7 +43425,7 @@ msgstr "Quality Inspection szükséges a(z) {0} item rekordhoz a(z) {1} job card
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1091
 msgid "Quality Inspection {0} is Rejected. Resolve the issue or follow your rejection process before submitting the job card."
-msgstr ""
+msgstr "A(z) {0} minőségellenőrzés elutasítva. Oldja meg a problémát, vagy kövesse az elutasítási folyamatot a munkakártya véglegesítése előtt."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:881
 msgid "Quality Inspection {0} is not submitted for the item: {1}"
@@ -43713,12 +43713,12 @@ msgstr "A Quantity nem lehet nagyobb, mint {0} a(z) {1} Item esetén"
 
 #: erpnext/stock/doctype/material_request/mapper.py:235
 msgid "Quantity for Item {0} must be greater than zero and cannot exceed {1}"
-msgstr ""
+msgstr "A(z) {0} cikk mennyiségének nullánál nagyobbnak kell lennie, és nem haladhatja meg a(z) {1} értéket"
 
 #: erpnext/stock/doctype/material_request/material_request.js:565
 msgctxt "<b>${pending_qty}</b>"
 msgid "Quantity for Item {0} must be greater than zero and cannot exceed {1}"
-msgstr ""
+msgstr "A(z) {0} cikk mennyiségének nullánál nagyobbnak kell lennie, és nem haladhatja meg a(z) {1} értéket"
 
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:563
 msgid "Quantity is mandatory for the selected items."
@@ -43774,7 +43774,7 @@ msgstr "Szkennelendő mennyiség"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1017
 msgid "Quantity {0} should not be greater than allowed quantity {1}"
-msgstr ""
+msgstr "A(z) {0} mennyiség nem lehet nagyobb a megengedett {1} mennyiségnél"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -44228,7 +44228,7 @@ msgstr "Arány, amelyen ezt az adót alkalmazzák"
 
 #: erpnext/accounts/services/child_item_update.py:545
 msgid "Rate of '{0}' items cannot be changed"
-msgstr ""
+msgstr "A '{0}' cikkek ára nem módosítható"
 
 #. Label of the rate_of_depreciation (Percent) field in DocType 'Asset
 #. Depreciation Schedule'
@@ -44330,7 +44330,7 @@ msgstr "Alapanyagköltség mennyiségenként"
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:160
 #: erpnext/manufacturing/doctype/production_plan/services/material_request.py:181
 msgid "Raw Material Group Warehouse"
-msgstr ""
+msgstr "Alapanyag csoportraktár"
 
 #: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.py:132
 msgid "Raw Material Item"
@@ -45346,7 +45346,7 @@ msgstr "Elutasított mennyiség"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Rejected Serial / Batch Entries"
-msgstr ""
+msgstr "Elutasított sorozatszám / tétel bejegyzések"
 
 #. Label of the rejected_serial_no (Text) field in DocType 'Purchase Invoice
 #. Item'
@@ -45393,7 +45393,7 @@ msgstr "Elutasított raktár"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:681
 msgid "Rejected Warehouse and Accepted Warehouse cannot be the same."
-msgstr ""
+msgstr "Az elutasítási raktár és az elfogadási raktár nem lehet azonos."
 
 #: erpnext/buying/doctype/purchase_order/purchase_order_dashboard.py:23
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation_dashboard.py:14
@@ -45860,11 +45860,11 @@ msgstr "Bizonylatok újrakönyvelésének előrehaladása"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:216
 msgid "Reposting can be started only for submitted document."
-msgstr ""
+msgstr "Az újrakönyvelés csak véglegesített dokumentumnál indítható."
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:221
 msgid "Reposting cannot be started when status is {0}."
-msgstr ""
+msgstr "Az újrakönyvelés nem indítható el, ha az állapot: {0}."
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:232
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:349
@@ -45889,7 +45889,7 @@ msgstr "Újrakönyvelés a háttérben."
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:211
 msgid "Reposting is still in progress in background."
-msgstr ""
+msgstr "Az újrakönyvelés még folyamatban van a háttérben."
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:315
 msgid "Reposting {0} {1}"
@@ -46232,7 +46232,7 @@ msgstr "Raktár a lefoglalásokhoz"
 
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:178
 msgid "Reserve Warehouse must be different from Supplier Warehouse for Supplied Item {0}."
-msgstr ""
+msgstr "A foglalási raktárnak különböznie kell a beszállítói raktártól a(z) {0} biztosított cikknél."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:646
 msgid "Reserve for Raw Materials"
@@ -46376,7 +46376,7 @@ msgstr "Alvállalkozáshoz foglalva"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:591
 msgid "Reserved for {0}"
-msgstr ""
+msgstr "Lefoglalva a következőnek: {0}"
 
 #: erpnext/public/js/stock_reservation.js:203
 #: erpnext/selling/doctype/sales_order/sales_order.js:421
@@ -46736,7 +46736,7 @@ msgstr "Visszáru kiadva"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:365
 msgid "Return Purchase Invoice cannot be held."
-msgstr ""
+msgstr "Bejövő jóváíró számla nem tartható vissza."
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:327
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:127
@@ -46888,7 +46888,7 @@ msgstr "Revenue Account"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:39
 msgid "Reversal Journal Entries"
-msgstr ""
+msgstr "Sztornó könyvelési tételek"
 
 #. Label of the reversal_of (Link) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
@@ -46897,7 +46897,7 @@ msgstr "Visszafordítása ennek"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry_list.js:6
 msgid "Reversal Of Exchange Rate Revaluation"
-msgstr ""
+msgstr "Árfolyam-átértékelés visszavezetése"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:254
 msgid "Reverse Journal Entry"
@@ -46914,7 +46914,7 @@ msgstr ""
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:118
 msgid "Reversing Journals..."
-msgstr ""
+msgstr "Könyvelési tételek sztornózása..."
 
 #. Label of the review (Link) field in DocType 'Quality Action'
 #. Group in Quality Goal's connections
@@ -47039,7 +47039,7 @@ msgstr "Rúd"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Role Allowed to Bypass Over Billing Restriction"
-msgstr ""
+msgstr "A túlszámlázási korlátozás megkerülésére jogosult szerepkör"
 
 #. Label of the role_allowed_to_over_deliver_receive (Link) field in DocType
 #. 'Stock Settings'
@@ -48174,7 +48174,7 @@ msgstr "Row No {0}: Warehouse szükséges. Kérjük, állítson be Default Wareh
 #. Label of the row_type (Select) field in DocType 'Production Plan Schedule'
 #: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
 msgid "Row Type"
-msgstr ""
+msgstr "Sor típusa"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:815
 msgid "Row {0} : Operation is required against the raw material item {1}"
@@ -49011,7 +49011,7 @@ msgstr "Az értékesítési számla nincs beküldve"
 
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:195
 msgid "Sales Invoice isn't created by user {0}"
-msgstr ""
+msgstr "Az értékesítési számlát nem a(z) {0} felhasználó hozta létre"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:472
 msgid "Sales Invoice mode is activated in POS. Please create Sales Invoice instead."
@@ -49663,7 +49663,7 @@ msgstr "Mintavételi megörzési raktár"
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1498
 msgid "Sample Retention Warehouse Missing"
-msgstr ""
+msgstr "Mintamegőrző raktár hiányzik"
 
 #. Label of the sample_size (Float) field in DocType 'Quality Inspection'
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:93
@@ -49712,7 +49712,7 @@ msgstr "Sazhen"
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:368
 msgid "Scan / select Serial No"
-msgstr ""
+msgstr "Sorozatszám beolvasása / kiválasztása"
 
 #. Label of the scan_barcode (Data) field in DocType 'POS Invoice'
 #. Label of the scan_barcode (Data) field in DocType 'Purchase Invoice'
@@ -49817,11 +49817,11 @@ msgstr "Menetrend dátuma"
 #. Sub Assembly Item'
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
 msgid "Schedule End Date"
-msgstr ""
+msgstr "Ütemezés befejező dátuma"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:155
 msgid "Schedule Items"
-msgstr ""
+msgstr "Tételek ütemezése"
 
 #: erpnext/public/js/controllers/transaction.js:561
 msgid "Schedule Name"
@@ -49829,11 +49829,11 @@ msgstr "Ütemezés neve"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:401
 msgid "Schedule Preview"
-msgstr ""
+msgstr "Ütemezés előnézete"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:275
 msgid "Schedule Production Plan"
-msgstr ""
+msgstr "Gyártási terv ütemezése"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:574
 msgid "Schedule applied. Expected completion on {0}"
@@ -49890,7 +49890,7 @@ msgstr "Az ütemező inaktív. A számlák nem vonhatók össze."
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:232
 msgid "Scheduler is inactive. Reposting will only run once background jobs are processed."
-msgstr ""
+msgstr "Az ütemező inaktív. Az újrakönyvelés csak a háttérfeladatok feldolgozása után fut le."
 
 #. Label of the schedules (Table) field in DocType 'Maintenance Schedule'
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.json
@@ -50404,7 +50404,7 @@ msgstr "Válasszon társaságot"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:455
 msgid "Select a machine or work order to begin"
-msgstr ""
+msgstr "Válasszon gépet vagy gyártási utasítást a kezdéshez"
 
 #: banking/src/components/features/BankReconciliation/MatchAndReconcile.tsx:396
 msgid "Select a transaction to match and reconcile with vouchers"
@@ -50471,7 +50471,7 @@ msgstr "Napok számának kiválasztása"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:233
 msgid "Select one or more Purchase Invoice rows"
-msgstr ""
+msgstr "Válasszon ki egy vagy több bejövő számla sort"
 
 #: banking/src/components/features/BankReconciliation/BankEntryModalContent.tsx:581
 #: banking/src/components/features/BankReconciliation/RecordPaymentModalContent.tsx:699
@@ -50526,7 +50526,7 @@ msgstr "Először válaszd ki a groupot, hogy az alábbi applicable withholding 
 
 #: erpnext/public/js/setup_wizard.js:89
 msgid "Select the modules that you plan to implement"
-msgstr ""
+msgstr "Válassza ki a bevezetni tervezett modulokat"
 
 #: erpnext/manufacturing/doctype/bom/bom.js:1027
 msgid "Select the raw materials (Items) required to manufacture the Item"
@@ -50861,7 +50861,7 @@ msgstr "Serial / Batch Bundle hiányzik"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "Serial / Batch Entries"
-msgstr ""
+msgstr "Sorozatszám / tétel bejegyzések"
 
 #. Label of the serial_no_and_batch_no_tab (Section Break) field in DocType
 #. 'Serial and Batch Bundle'
@@ -50975,7 +50975,7 @@ msgstr "A sorozatszám már hozzá van rendelve"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:307
 msgid "Serial No Bundle is mandatory for Item {0}"
-msgstr ""
+msgstr "A sorozatszám-köteg kötelező a(z) {0} cikknél"
 
 #: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:39
 msgid "Serial No Count"
@@ -51041,7 +51041,7 @@ msgstr "Széria sz. és Köteg"
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.js:82
 msgid "Serial No and Batch Selector cannot be used when Use Serial / Batch Fields is enabled."
-msgstr ""
+msgstr "A sorozatszám- és tételválasztó nem használható, ha a 'Sorozatszám / tétel mezők használata' engedélyezve van."
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
@@ -51062,11 +51062,11 @@ msgstr "Széria sz. kötelező tétel {0}"
 
 #: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:111
 msgid "Serial No status sync has been queued. Reload the report after a few minutes."
-msgstr ""
+msgstr "A sorozatszám-állapot szinkronizálása sorba állt. Néhány perc múlva töltse újra a jelentést."
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:724
 msgid "Serial No {0} already added"
-msgstr ""
+msgstr "A(z) {0} sorozatszám már hozzá lett adva"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:614
 msgid "Serial No {0} already exists"
@@ -51092,7 +51092,7 @@ msgstr "A {0} Széria sz. nem létezik"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:379
 msgid "Serial No {0} is already Delivered. You cannot use it again in Manufacture / Repack entry."
-msgstr ""
+msgstr "A(z) {0} sorozatszám már ki lett szállítva. Nem használható újra gyártási / átcsomagolási tételben."
 
 #: erpnext/public/js/utils/barcode_scanner.js:443
 msgid "Serial No {0} is already added"
@@ -51108,11 +51108,11 @@ msgstr "A Serial No {0} nincs jelen ebben: {1} {2}, ezért nem returnölhető ez
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:344
 msgid "Serial No {0} is under maintenance contract until {1}"
-msgstr ""
+msgstr "A(z) {0} sorozatszám karbantartási szerződés alatt áll eddig: {1}"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:337
 msgid "Serial No {0} is under warranty until {1}"
-msgstr ""
+msgstr "A(z) {0} sorozatszám garancia alatt áll eddig: {1}"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:323
 msgid "Serial No {0} not found"
@@ -51228,7 +51228,7 @@ msgstr "Sorozat- és sarzsköteg"
 
 #: erpnext/stock/doctype/item/item.py:1166
 msgid "Serial and Batch Bundle Exists"
-msgstr ""
+msgstr "Sorozatszám- és tételköteg már létezik"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2335
 msgid "Serial and Batch Bundle created"
@@ -51545,7 +51545,7 @@ msgstr "Állítsa be az alapdíjat kézzel"
 #. Label of the set_qty_based_on_percentage (Check) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Set Component Quantities Based On Percentage"
-msgstr ""
+msgstr "Komponensmennyiségek beállítása százalék alapján"
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:191
 msgid "Set Default Supplier"
@@ -52208,7 +52208,7 @@ msgstr "Szállítás Városa"
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact"
-msgstr ""
+msgstr "Szállítási kapcsolattartó"
 
 #. Label of the shipping_contact_email (Data) field in DocType 'Sales Invoice'
 #. Label of the shipping_contact_email (Data) field in DocType 'Sales Order'
@@ -52217,7 +52217,7 @@ msgstr ""
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact Email"
-msgstr ""
+msgstr "Szállítási kapcsolattartó e-mail"
 
 #. Label of the shipping_contact_mobile (Small Text) field in DocType 'Sales
 #. Invoice'
@@ -52229,7 +52229,7 @@ msgstr ""
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact Mobile No"
-msgstr ""
+msgstr "Szállítási kapcsolattartó mobilszám"
 
 #. Label of the shipping_contact_person (Link) field in DocType 'Sales Invoice'
 #. Label of the shipping_contact_person (Link) field in DocType 'Sales Order'
@@ -52238,7 +52238,7 @@ msgstr ""
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact Person"
-msgstr ""
+msgstr "Szállítási kapcsolattartó személy"
 
 #. Label of the shipping_country (Link) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
@@ -52335,7 +52335,7 @@ msgstr "Csak az értékesítésre vonatkozó szállítási szabály"
 #: erpnext/public/js/shop_floor/shop_floor.js:198
 #: erpnext/workspace_sidebar/manufacturing.json
 msgid "Shop Floor"
-msgstr ""
+msgstr "Gyártócsarnok"
 
 #. Option for the 'Order Type' (Select) field in DocType 'Quotation'
 #. Label of the shopping_cart_section (Section Break) field in DocType
@@ -53323,7 +53323,7 @@ msgstr "Background job indult a(z) {1} {0} létrehozásához. {2}"
 
 #: erpnext/public/js/bulk_transaction_processing.js:29
 msgid "Starting a background job to create {0} {1}"
-msgstr ""
+msgstr "Háttérfeladat indítása a(z) {0} {1} létrehozásához"
 
 #. Label of the date_dist_from_left_edge (Float) field in DocType 'Cheque Print
 #. Template'
@@ -53349,7 +53349,7 @@ msgstr "Kiinduló helyzet a felső széltől"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:427
 msgid "Starts In"
-msgstr ""
+msgstr "Kezdődik"
 
 #. Option for the 'Check' (Select) field in DocType 'Bank Transaction Rule
 #. Description Conditions'
@@ -53493,7 +53493,7 @@ msgstr "Készletezett tárgyi eszközök"
 #: erpnext/stock/doctype/pick_list/pick_list.js:128
 #: erpnext/stock/doctype/pick_list/pick_list.js:362
 msgid "Stock Availability"
-msgstr ""
+msgstr "Készlet elérhetősége"
 
 #: erpnext/stock/report/item_price_stock/item_price_stock.py:34
 msgid "Stock Available"
@@ -53541,15 +53541,15 @@ msgstr "Készletzárási tétel"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:242
 msgid "Stock Closing Entry In Progress"
-msgstr ""
+msgstr "Készletzárási tétel folyamatban"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:260
 msgid "Stock Closing Entry Outdated"
-msgstr ""
+msgstr "Készletzárási tétel elavult"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:234
 msgid "Stock Closing Entry Required"
-msgstr ""
+msgstr "Készletzárási tétel szükséges"
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:120
 msgid "Stock Closing Entry {0} already exists for the selected date range"
@@ -53561,7 +53561,7 @@ msgstr ""
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:157
 msgid "Stock Closing Entry {0} has been queued for processing, the system will take some time to complete it."
-msgstr ""
+msgstr "A(z) {0} készletzárási tétel feldolgozásra sorba állt; a rendszernek némi időbe telik befejezni."
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry_dashboard.py:9
 msgid "Stock Closing Log"
@@ -53592,7 +53592,7 @@ msgstr "Készlet Részletek"
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:475
 msgid "Stock Entries already created for Work Order {0}: {1}"
-msgstr ""
+msgstr "A(z) {0} gyártási utasításhoz már létrejöttek készlettételek: {1}"
 
 #. Label of the stock_entry (Link) field in DocType 'Journal Entry'
 #. Label of a Link in the Manufacturing Workspace
@@ -53651,7 +53651,7 @@ msgstr "Készletmozgás típusa"
 
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.py:65
 msgid "Stock Entry Type {0} cannot be set as standard"
-msgstr ""
+msgstr "A(z) {0} készlettétel-típus nem állítható be alapértelmezettként"
 
 #: erpnext/stock/doctype/batch/batch.js:138
 msgid "Stock Entry {0} created"
@@ -53675,7 +53675,7 @@ msgstr "Készlet költségek"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Stock Expense Accounting"
-msgstr ""
+msgstr "Készletköltség könyvelése"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:87
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:147
@@ -53684,15 +53684,15 @@ msgstr "Készlet költségek"
 
 #: erpnext/stock/stock_ledger.py:125
 msgid "Stock Frozen"
-msgstr ""
+msgstr "Készlet zárolva"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:551
 msgid "Stock Held By"
-msgstr ""
+msgstr "Készletet tartja"
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:1420
 msgid "Stock Held by Other Pick Lists"
-msgstr ""
+msgstr "Készletet más gyűjtőlisták tartják"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:37
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:60
@@ -54247,7 +54247,7 @@ msgstr "Készletérték"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:189
 msgid "Stock Value Mismatch"
-msgstr ""
+msgstr "Készletérték eltérés"
 
 #. Label of a chart in the Stock Workspace
 #: erpnext/stock/workspace/stock/stock.json
@@ -54313,11 +54313,11 @@ msgstr "Stock nem érhető el a(z) {0} Item rekordhoz a(z) {1} Warehouse alatt."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1302
 msgid "Stock not available to reserve for the Item {0} in Warehouse {1}."
-msgstr ""
+msgstr "Nincs lefoglalható készlet a(z) {0} cikkhez a(z) {1} raktárban."
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:826
 msgid "Stock quantity is not enough for Item Code: {0} under warehouse {1}. Available quantity {2} {3}."
-msgstr ""
+msgstr "A készletmennyiség nem elegendő a(z) {0} cikkkódhoz a(z) {1} raktárban. Elérhető mennyiség: {2} {3}."
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:264
 msgid "Stock transactions before {0} are frozen"
@@ -54383,7 +54383,7 @@ msgstr "Egyenes"
 #: erpnext/public/js/templates/shop_floor_template.html:971
 #: erpnext/public/js/templates/shop_floor_template.html:1021
 msgid "Sub"
-msgstr ""
+msgstr "Al"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:61
 msgid "Sub Assemblies"
@@ -55642,7 +55642,7 @@ msgstr "Váltás a fizetési módok között"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1457
 msgid "Switch Board / Operator view"
-msgstr ""
+msgstr "Váltás tábla / kezelői nézet között"
 
 #: banking/src/components/features/Settings/Preferences.tsx:186
 msgid "Switch between light, dark, or system theme"
@@ -55650,15 +55650,15 @@ msgstr "Váltás világos, sötét vagy rendszertéma között"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1458
 msgid "Switch board tab"
-msgstr ""
+msgstr "Tábla fül váltása"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:139
 msgid "Switch to Dark Theme"
-msgstr ""
+msgstr "Váltás sötét témára"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:139
 msgid "Switch to Light Theme"
-msgstr ""
+msgstr "Váltás világos témára"
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:23
 msgid "Sync Now"
@@ -55666,7 +55666,7 @@ msgstr "Szinkronizálás most"
 
 #: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.js:6
 msgid "Sync Serial No Status"
-msgstr ""
+msgstr "Sorozatszám-állapot szinkronizálása"
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:36
 msgid "Sync Started"
@@ -55681,7 +55681,7 @@ msgstr "Minden bankszámla szinkronizálása óránként"
 #. Deduction'
 #: erpnext/accounts/doctype/payment_entry_deduction/payment_entry_deduction.json
 msgid "System Generated"
-msgstr ""
+msgstr "Rendszer által generált"
 
 #: erpnext/accounts/doctype/account/account.py:714
 msgid "System In Use"
@@ -55804,7 +55804,7 @@ msgstr "A Target Asset {0} nem tartozik a(z) {1} company rekordhoz"
 
 #: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:215
 msgid "Target Asset {0} needs to be a composite asset"
-msgstr ""
+msgstr "A(z) {0} céleszköznek összetett eszköznek kell lennie"
 
 #. Name of a DocType
 #: erpnext/setup/doctype/target_detail/target_detail.json
@@ -55972,7 +55972,7 @@ msgstr "Feladatleírás"
 #. Label of the task_key (Data) field in DocType 'Production Plan Schedule'
 #: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
 msgid "Task Key"
-msgstr ""
+msgstr "Feladat kulcs"
 
 #. Name of a DocType
 #: erpnext/projects/doctype/task_type/task_type.json
@@ -56892,7 +56892,7 @@ msgstr "Tartományi célok"
 #. Label of a chart in the CRM Workspace
 #: erpnext/crm/workspace/crm/crm.json
 msgid "Territory Wise Sales"
-msgstr ""
+msgstr "Értékesítés területenként"
 
 #. Name of a report
 #: erpnext/selling/report/territory_wise_sales/territory_wise_sales.json
@@ -56912,7 +56912,7 @@ msgstr "A financial statement alatt megjelenő szöveg (pl. 'Total Revenue', 'Ca
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:89
 msgid "The 'From Package No.' field must not be empty or have a value less than 1."
-msgstr ""
+msgstr "A 'Kezdő csomagszám' mező nem lehet üres, és értéke nem lehet 1-nél kisebb."
 
 #. Description of the 'Current BOM' (Link) field in DocType 'BOM Update Tool'
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
@@ -56921,7 +56921,7 @@ msgstr "A lecserélendő anyagjegyzék"
 
 #: erpnext/controllers/subcontracting_controller.py:1056
 msgid "The Batch No {0} has not been supplied against the {1} {2}"
-msgstr ""
+msgstr "A(z) {0} kötegszám nem lett biztosítva a(z) {1} {2} ellenében"
 
 #: erpnext/stock/serial_batch_bundle.py:1681
 msgid "The Batch {0} has negative batch quantity {1}. To fix this, go to the batch and click on Recalculate Batch Qty. If the issue still persists, create an inward entry."
@@ -56957,7 +56957,7 @@ msgstr "A GL Entries törlése háttérben történik, ez eltarthat néhány per
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1272
 msgid "The Item {0} does not have Serial No or Batch No"
-msgstr ""
+msgstr "A(z) {0} cikknek nincs sorozatszáma vagy kötegszáma"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1518
 msgid "The Job Card {0} has only {1} left to produce, but this entry books {2} ({3} finished goods and {4} process loss). Cancel or update its other manufacture entries first."
@@ -56981,11 +56981,11 @@ msgstr "A Stock Reservation Entries rekordokat tartalmazó Pick List nem frissí
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:140
 msgid "The Process Loss Qty has been reset as per the Job Card's Process Loss Qty"
-msgstr ""
+msgstr "A gyártási veszteség mennyisége visszaállt a munkakártya gyártási veszteségének megfelelően"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1474
 msgid "The Process Loss Qty has been reset as per the job card's Process Loss Qty"
-msgstr ""
+msgstr "A gyártási veszteség mennyisége visszaállt a munkakártya gyártási veszteségének megfelelően"
 
 #: erpnext/setup/doctype/sales_person/sales_person.py:102
 msgid "The Sales Person is linked with {0}"
@@ -57001,7 +57001,7 @@ msgstr "A Serial No {0} le van foglalva ehhez: {1} {2}, és nem használható m�
 
 #: erpnext/controllers/subcontracting_controller.py:1071
 msgid "The Serial Nos {0} have not been supplied against the {1} {2}"
-msgstr ""
+msgstr "A(z) {0} sorozatszámok nem lettek biztosítva a(z) {1} {2} ellenében"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1057
 msgid "The Serial and Batch Bundle {0} is not valid for this transaction. The 'Type of Transaction' should be 'Outward' instead of 'Inward' in Serial and Batch Bundle {0}"
@@ -57023,7 +57023,7 @@ msgstr "A számla fej a kötelezettség vagy saját tőke alatt, ahol a nyeresé
 
 #: erpnext/accounts/doctype/account/account.py:226
 msgid "The account type of {0} cannot be changed from {1} because stock ledger entries exist against it."
-msgstr ""
+msgstr "A(z) {0} számla típusa nem módosítható a(z) {1} típusról, mert készletfőkönyvi tételek tartoznak hozzá."
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:1180
 msgid "The allocated amount is greater than the outstanding amount of Payment Request {0}"
@@ -57039,7 +57039,7 @@ msgstr "A kifizetési kérelemben beállított {0} összeg eltér az összes fiz
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:222
 msgid "The attached PDF file could not be found."
-msgstr ""
+msgstr "A csatolt PDF-fájl nem található."
 
 #: erpnext/accounts/doctype/bank_statement_import_log/bank_statement_import_log.py:97
 #: erpnext/accounts/doctype/bank_statement_import_log/bank_statement_import_log.py:505
@@ -57077,11 +57077,11 @@ msgstr ""
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1589
 msgid "The completed quantity {0} of an operation {1} cannot be greater than the manufactured quantity {2} of a previous operation {3}. Submit the manufacturing entry for the operation {3} first."
-msgstr ""
+msgstr "A(z) {1} művelet készmennyisége ({0}) nem lehet nagyobb a(z) {3} korábbi művelet legyártott mennyiségénél ({2}). Előbb véglegesítse a(z) {3} művelet gyártási tételét."
 
 #: erpnext/accounts/doctype/dunning/dunning.py:87
 msgid "The currency of invoice {0} ({1}) is different from the currency of this dunning ({2})."
-msgstr ""
+msgstr "A(z) {0} számla pénzneme ({1}) eltér ennek a felszólításnak a pénznemétől ({2})."
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:200
 msgid "The current POS opening entry is outdated. Please close it and create a new one."
@@ -57134,7 +57134,7 @@ msgstr "A(z) {0} field nincs beállítva a(z) {1}. sorban"
 
 #: erpnext/stock/stock_ledger.py:505
 msgid "The field {0} is required for reposting"
-msgstr ""
+msgstr "A(z) {0} mező kötelező az újrakönyveléshez"
 
 #: erpnext/accounts/doctype/share_transfer/share_transfer.py:188
 msgid "The fields From Shareholder and To Shareholder cannot be blank"
@@ -57159,7 +57159,7 @@ msgstr "Folio számok nem egyeznek"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:306
 msgid "The following Items, having Putaway Rules, could not be accommodated:"
-msgstr ""
+msgstr "A következő, betárolási szabályokkal rendelkező cikkek nem voltak elhelyezhetők:"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:141
 msgid "The following Purchase Invoices are not submitted:"
@@ -57187,7 +57187,7 @@ msgstr "A következő alkalmazottak jelenleg is jelentést tesznek a következő
 
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.py:185
 msgid "The following invalid Pricing Rules are deleted:{0}"
-msgstr ""
+msgstr "A következő érvénytelen árazási szabályok törlésre kerültek:{0}"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:803
 msgid "The following payment schedule(s) already exist:\n"
@@ -57201,7 +57201,7 @@ msgstr "A következő sorok duplikáltak:"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:130
 msgid "The following vouchers are not submitted: {0}"
-msgstr ""
+msgstr "A következő bizonylatok nincsenek véglegesítve: {0}"
 
 #: erpnext/stock/doctype/material_request/material_request.py:635
 msgid "The following {0} were created: {1}"
@@ -57240,7 +57240,7 @@ msgstr "A(z) {items} items nincsenek {type_of} itemként jelölve. Az Item maste
 
 #: erpnext/manufacturing/doctype/workstation/workstation.py:526
 msgid "The job card {0} is in {1} state and you cannot complete it."
-msgstr ""
+msgstr "A(z) {0} munkakártya {1} állapotban van, és nem fejezhető be."
 
 #: erpnext/manufacturing/doctype/workstation/workstation.py:520
 msgid "The job card {0} is in {1} state and you cannot start it again."
@@ -57278,11 +57278,11 @@ msgstr "A nyitóegyenleg lehet, hogy nem egyezik a bankkivonattal. Szeretné egy
 
 #: erpnext/manufacturing/doctype/operation/operation.py:44
 msgid "The operation {0} cannot be added multiple times"
-msgstr ""
+msgstr "A(z) {0} művelet nem adható hozzá többször"
 
 #: erpnext/manufacturing/doctype/operation/operation.py:49
 msgid "The operation {0} cannot be its own sub-operation"
-msgstr ""
+msgstr "A(z) {0} művelet nem lehet önmaga alművelete"
 
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:107
 msgid "The original invoice should be consolidated before or along with the return invoice."
@@ -57290,7 +57290,7 @@ msgstr "Az original invoice rekordot a return invoice előtt vagy azzal együtt 
 
 #: erpnext/manufacturing/doctype/bom/bom.py:761
 msgid "The other components already total {0}%, so no percentage remains for the Balance Item {1}."
-msgstr ""
+msgstr "A többi komponens összege már {0}%, így nem marad százalék a(z) {1} egyenlegtételnek."
 
 #: erpnext/controllers/accounts_controller.py:198
 msgid "The outstanding amount {0} in {1} is lesser than {2}. Updating the outstanding to this invoice."
@@ -57336,11 +57336,11 @@ msgstr "Az a percentage, amennyivel többet vihet át a rendelt mennyiséghez k�
 
 #: erpnext/manufacturing/doctype/bom/bom.py:744
 msgid "The percentages of the components must total 100%. The current total is {0}%. To fill the remaining percentage automatically, mark one component as Balance Item."
-msgstr ""
+msgstr "A komponensek százalékainak összege 100% kell legyen. A jelenlegi összeg {0}%. A fennmaradó százalék automatikus kitöltéséhez jelöljön meg egy komponenst egyenlegtételként."
 
 #: erpnext/stock/doctype/item_price/item_price.py:71
 msgid "The price list {0} does not exist or is disabled"
-msgstr ""
+msgstr "A(z) {0} árlista nem létezik vagy le van tiltva"
 
 #. Description of the 'Last Purchase Rate' (Float) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -57369,7 +57369,7 @@ msgstr "A kiválasztott anyagjegyzékek nem ugyanahhoz a tételhez tartoznak"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:544
 msgid "The selected change account {0} does not belong to Company {1}."
-msgstr ""
+msgstr "A kiválasztott {0} visszajáró-számla nem tartozik a(z) {1} céghez."
 
 #: erpnext/stock/doctype/batch/batch.py:157
 msgid "The selected item cannot have Batch"
@@ -57377,7 +57377,7 @@ msgstr "A kiválasztott elemnek nem lehet Kötege"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/inline_editor.py:151
 msgid "The selected row does not belong to the {0}"
-msgstr ""
+msgstr "A kiválasztott sor nem tartozik a(z) {0} elemhez"
 
 #: erpnext/assets/doctype/asset/asset.js:670
 msgid "The sell quantity is less than the total asset quantity. The remaining quantity will be split into a new asset. This action cannot be undone. <br><br><b>Do you want to continue?</b>"
@@ -57390,7 +57390,7 @@ msgstr "Eladó és a vevő nem lehet ugyanaz"
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:187
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:199
 msgid "The serial and batch bundle {0} is not linked to {1} {2}"
-msgstr ""
+msgstr "A(z) {0} sorozatszám- és tételköteg nincs a(z) {1} {2} elemhez kapcsolva"
 
 #: erpnext/stock/doctype/batch/batch.py:397
 msgid "The serial no {0} does not belong to item {1}"
@@ -57418,7 +57418,7 @@ msgstr "A stock le van foglalva az alábbi Items és Warehouses esetén; oldja f
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:1419
 msgid "The stock is held by the following Pick Lists:"
-msgstr ""
+msgstr "A készletet a következő gyűjtőlisták tartják:"
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:37
 msgid "The sync has started in the background, please check the {0} list for new records."
@@ -57448,7 +57448,7 @@ msgstr "A task background jobként sorba került. Ha a háttérfeldolgozás sor�
 
 #: erpnext/stock/doctype/material_request/material_request.py:408
 msgid "The total Issue / Transfer quantity {0} in Material Request {1} cannot be greater than allowed requested quantity {2} for Item {3}"
-msgstr ""
+msgstr "A(z) {1} anyagigénylésben a teljes kiadási / átadási mennyiség ({0}) nem lehet nagyobb a(z) {3} cikkhez megengedett igényelt mennyiségnél ({2})"
 
 #: erpnext/stock/doctype/material_request/material_request.py:415
 msgid "The total Issue / Transfer quantity {0} in Material Request {1} cannot be greater than requested quantity {2} for Item {3}"
@@ -57528,7 +57528,7 @@ msgstr "A(z) {0} {1} nem egyezik a(z) {0} {2} értékkel ebben: {3} {4}"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1849
 msgid "The {0} {1} is in submitted state, please cancel it first"
-msgstr ""
+msgstr "A(z) {0} {1} véglegesített állapotban van, kérjük, előbb sztornózza"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1098
 msgid "The {0} {1} is used to calculate the valuation cost for the finished good {2}."
@@ -57569,7 +57569,7 @@ msgstr "A rendszerben nincsenek olyan tételek, ahol a kiegyenlítési dátum ko
 
 #: erpnext/stock/report/item_variant_details/item_variant_details.py:25
 msgid "There are no item variants for the selected item"
-msgstr ""
+msgstr "A kiválasztott cikkhez nincsenek variánsok"
 
 #: erpnext/www/book_appointment/index.js:95
 msgid "There are no slots available on this date"
@@ -57617,7 +57617,7 @@ msgstr "{0} előtt egy egyeztetetlen tranzakció van."
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:994
 msgid "There must be at least 1 Finished Good in this Stock Entry"
-msgstr ""
+msgstr "Ebben a készlettételben legalább 1 késztermék kell legyen"
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:153
 msgid "There was an error creating Bank Account while linking with Plaid."
@@ -57629,7 +57629,7 @@ msgstr "Hiba történt a tranzakciók szinkronizálása közben."
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:177
 msgid "There was an error updating Bank Account {0} while linking with Plaid."
-msgstr ""
+msgstr "Hiba történt a(z) {0} bankszámla frissítésekor a Plaid-kapcsolat során."
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:81
 msgid "There was an error while importing the bank statement."
@@ -57685,11 +57685,11 @@ msgstr "Ez a Payment Entry egyeztetve van ezzel: {0}. A cancel automatikusan meg
 
 #: erpnext/selling/doctype/product_bundle/product_bundle.py:121
 msgid "This Product Bundle is linked with {0}. You will have to cancel these documents in order to delete this Product Bundle"
-msgstr ""
+msgstr "Ez a termékcsomag a(z) {0} elemhez van kapcsolva. A termékcsomag törléséhez sztornóznia kell ezeket a dokumentumokat"
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:218
 msgid "This Proforma Invoice has no PDF to send."
-msgstr ""
+msgstr "Ehhez a proforma számlához nincs elküldhető PDF."
 
 #: erpnext/buying/doctype/purchase_order/mapper.py:253
 msgid "This Purchase Order has been fully subcontracted."
@@ -57734,7 +57734,7 @@ msgstr "Ez tartalmazhat \"CR\"/\"DR\" értékeket vagy pozitív/negatív érték
 #. Description of the 'Is Balance Item' (Check) field in DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "This component absorbs the percentage remaining after all other percentage rows"
-msgstr ""
+msgstr "Ez a komponens veszi fel a többi százalékos sor után fennmaradó százalékot"
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard_dashboard.py:7
 msgid "This covers all scorecards tied to this Setup"
@@ -57888,11 +57888,11 @@ msgstr "Ez az item filter már alkalmazva van ehhez: {0}"
 
 #: erpnext/templates/emails/confirm_appointment.html:4
 msgid "This link is valid for {0} minutes"
-msgstr ""
+msgstr "Ez a link {0} percig érvényes"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:705
 msgid "This machine can run at most {0} job(s) in parallel. Pause or complete a running job before starting another."
-msgstr ""
+msgstr "Ez a gép legfeljebb {0} feladatot futtathat párhuzamosan. Szüneteltessen vagy fejezzen be egy futó feladatot, mielőtt újat indít."
 
 #: erpnext/www/banking.py:35
 msgid "This method is only meant for developer mode"
@@ -58017,7 +58017,7 @@ msgstr "Ez az érték akkor lesz használva, ha egy rekordhoz nem található ma
 
 #: erpnext/www/book_appointment/verify/index.py:18
 msgid "This verification link is invalid. Please book the appointment again."
-msgstr ""
+msgstr "Ez a megerősítő link érvénytelen. Kérjük, foglaljon időpontot újra."
 
 #: banking/src/components/features/Settings/Preferences.tsx:86
 msgid "This will automatically run transaction matching rules on unreconciled transactions every hour."
@@ -58059,11 +58059,11 @@ msgstr "Ez korlátozza a felhasználói hozzáférést más alkalmazotti rekordo
 
 #: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.js:16
 msgid "This will update the warehouse and status of Serial Nos counted in {0} to match the stock ledger. Continue?"
-msgstr ""
+msgstr "Ez frissíti a(z) {0} elemben számlált sorozatszámok raktárát és állapotát a készletfőkönyvhöz igazítva. Folytatja?"
 
 #: erpnext/controllers/selling_controller.py:901
 msgid "This {0} will be treated as material transfer."
-msgstr ""
+msgstr "Ez a(z) {0} anyagátadásként lesz kezelve."
 
 #. Option for the 'Under Withheld Reason' (Select) field in DocType 'Tax
 #. Withholding Entry'
@@ -58188,7 +58188,7 @@ msgstr "Idő (percekben)"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Timeout (in seconds) for each background job enqueued by Process Period Closing Voucher"
-msgstr ""
+msgstr "Időtúllépés (másodpercben) az Időszakzáró bizonylat feldolgozása által sorba állított minden háttérfeladathoz"
 
 #: erpnext/manufacturing/doctype/workstation/workstation_job_card.html:36
 #: erpnext/public/js/projects/timer.js:5
@@ -58381,7 +58381,7 @@ msgstr "A számla keltétől"
 #: erpnext/public/js/templates/shop_floor_template.html:919
 #: erpnext/public/js/templates/shop_floor_template.html:929
 msgid "To Manufacture"
-msgstr ""
+msgstr "Gyártandó"
 
 #. Label of the to_no (Int) field in DocType 'Share Balance'
 #. Label of the to_no (Int) field in DocType 'Share Transfer'
@@ -58486,7 +58486,7 @@ msgstr "Ideig"
 
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.py:108
 msgid "To Time cannot be before From Time"
-msgstr ""
+msgstr "A záró időpont nem lehet a kezdő időpont előtt"
 
 #. Description of the 'Referral Code' (Data) field in DocType 'Sales Partner'
 #: erpnext/setup/doctype/sales_partner/sales_partner.json
@@ -58542,7 +58542,7 @@ msgstr "Ügyfélnek szállítandó"
 
 #: erpnext/accounts/doctype/sales_invoice/services/pos.py:276
 msgid "To cancel a {0} you need to cancel the POS Closing Entry {1}."
-msgstr ""
+msgstr "A(z) {0} sztornózásához sztornóznia kell a(z) {1} POS-zárási tételt."
 
 #: erpnext/accounts/doctype/sales_invoice/services/pos.py:290
 msgid "To cancel this Sales Invoice you need to cancel the POS Closing Entry {0}."
@@ -58554,7 +58554,7 @@ msgstr "Kifizetés iránti kérelem létrehozásához referencia dokumentum szü
 
 #: erpnext/assets/doctype/asset_category/asset_category.py:120
 msgid "To enable Capital Work in Progress Accounting, you must select Capital Work in Progress Account in accounts table"
-msgstr ""
+msgstr "A beruházások (befejezetlen) könyvelésének engedélyezéséhez ki kell választania a Beruházási befejezetlen számlát a számlák táblázatban"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:1094
 msgid "To include non-stock items in the material request planning. i.e. Items for which 'Maintain Stock' checkbox is unticked."
@@ -58615,7 +58615,7 @@ msgstr "Másik pénzügyi könyv használatához törölje az „Alapértelmezet
 
 #: erpnext/public/js/templates/shop_floor_template.html:1048
 msgid "Today's Sessions"
-msgstr ""
+msgstr "Mai munkamenetek"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -58912,7 +58912,7 @@ msgstr "Összesen elkészült"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:967
 msgid "Total Completed Qty ({0}), Process Loss Qty ({1}) and Pending Qty ({2}) must add up to the Qty to Manufacture ({3})."
-msgstr ""
+msgstr "Az összes készmennyiség ({0}), gyártási veszteség ({1}) és hátralévő mennyiség ({2}) összegének ki kell adnia a gyártandó mennyiséget ({3})."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:205
 msgid "Total Completed Qty is required for Job Card {0}, please start and complete the job card before submission"
@@ -58934,7 +58934,7 @@ msgstr "Total Contribution Amount Against Orders: {0}"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:110
 msgid "Total Corrected Qty"
-msgstr ""
+msgstr "Összes javított mennyiség"
 
 #. Label of the total_cost (Currency) field in DocType 'BOM'
 #. Label of the raw_material_cost (Currency) field in DocType 'BOM Creator'
@@ -59016,7 +59016,7 @@ msgstr "Teljes kereslet (múltbeli adatok)"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:523
 msgid "Total Duration"
-msgstr ""
+msgstr "Teljes időtartam"
 
 #: erpnext/accounts/report/balance_sheet/balance_sheet.py:244
 msgid "Total Equity"
@@ -59552,7 +59552,7 @@ msgstr "Összesen az órák: {0}"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:574
 #: erpnext/accounts/doctype/sales_invoice/services/pos.py:190
 msgid "Total payments amount can't be greater than {0}"
-msgstr ""
+msgstr "A fizetések összege nem lehet nagyobb, mint {0}"
 
 #: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.py:66
 msgid "Total percentage against cost centers should be 100"
@@ -59575,7 +59575,7 @@ msgstr "Összesen {0} ({1})"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:248
 msgid "Total {0} for all items is zero, maybe you should change 'Distribute Charges Based On'"
-msgstr ""
+msgstr "Az összes cikkre vonatkozó teljes {0} nulla; érdemes lehet módosítani a 'Költségek felosztásának alapja' beállítást"
 
 #: erpnext/controllers/trends.py:26 erpnext/controllers/trends.py:33
 msgid "Total(Amt)"
@@ -59881,7 +59881,7 @@ msgstr "A Company rekordhoz már léteznek Transactions. Chart of Accounts csak 
 #. 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Transactions are blocked when the outstanding balance exceeds the credit limit. When Restrict Customer Over Billing is enabled, new invoices are also blocked when the customer's overdue amount exceeds the Overdue Limit."
-msgstr ""
+msgstr "A tranzakciók letiltásra kerülnek, ha a fennálló egyenleg meghaladja a hitelkeretet. Ha a 'Vevői túlszámlázás korlátozása' engedélyezve van, az új számlák is letiltásra kerülnek, amikor a vevő késedelmes összege meghaladja a késedelmi limitet."
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:239
 msgid "Transactions to be imported into the system"
@@ -60005,7 +60005,7 @@ msgstr "Átvitt Mennyiség"
 #. Label of the transferred_qty (Float) field in DocType 'Pick List Item'
 #: erpnext/stock/doctype/pick_list_item/pick_list_item.json
 msgid "Transferred Qty (in Stock UOM)"
-msgstr ""
+msgstr "Átadott mennyiség (készlet mértékegységben)"
 
 #: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.py:38
 msgid "Transferred Quantity"
@@ -60507,7 +60507,7 @@ msgstr "Allokációk egyeztetésének feloldása"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:375
 msgid "Unable to Repost Accounting Ledger"
-msgstr ""
+msgstr "A főkönyv újrakönyvelése nem sikerült"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:479
 msgid "Unable to fetch DocType details. Please contact system administrator."
@@ -61210,11 +61210,11 @@ msgstr "HTTP protokoll használata"
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Use Inline Serial / Batch Editor"
-msgstr ""
+msgstr "Beágyazott sorozatszám / tétel szerkesztő használata"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:286
 msgid "Use Item Wise Start Dates"
-msgstr ""
+msgstr "Cikkenkénti kezdődátumok használata"
 
 #. Label of the item_based_reposting (Check) field in DocType 'Stock Reposting
 #. Settings'
@@ -61240,7 +61240,7 @@ msgstr "Többszintű anyagjegyzék használata"
 #. DocType 'Global Defaults'
 #: erpnext/setup/doctype/global_defaults/global_defaults.json
 msgid "Use Posting Date for Naming Documents"
-msgstr ""
+msgstr "Könyvelési dátum használata a dokumentumok elnevezéséhez"
 
 #. Label of the use_serial_batch_fields (Check) field in DocType 'Stock
 #. Settings'
@@ -61329,7 +61329,7 @@ msgstr "Alapértelmezett árlista árainak használata tartalékként"
 #. Description of the 'No of Shifts' (Int) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Used by scheduling when an item has no BOM operations: scales the Item Lead Time daily capacity to this many shifts."
-msgstr ""
+msgstr "Az ütemezés használja, ha egy cikknek nincsenek anyagjegyzék-műveletei: a cikk átfutási idejének napi kapacitását ennyi műszakra méretezi."
 
 #. Description of the 'Sales Order Date' (Date) field in DocType 'Sales Order
 #. Item'
@@ -61353,7 +61353,7 @@ msgstr ""
 #. DocType 'Item Default'
 #: erpnext/stock/doctype/item_default/item_default.json
 msgid "Used to balance the books when recording expenses added to stock"
-msgstr ""
+msgstr "A könyvek egyensúlyban tartására szolgál a készletre aktivált költségek rögzítésekor"
 
 #. Description of the 'Purchase Expense Contra Account' (Link) field in DocType
 #. 'Item Default'
@@ -61398,7 +61398,7 @@ msgstr "Felhasználói felbontás ideje"
 
 #: erpnext/accounts/party.py:465
 msgid "User don't have permissions to select/read this account."
-msgstr ""
+msgstr "A felhasználónak nincs jogosultsága a számla kiválasztásához/olvasásához."
 
 #: erpnext/accounts/doctype/pricing_rule/utils.py:597
 msgid "User has not applied rule on the invoice {0}"
@@ -61422,7 +61422,7 @@ msgstr "Felhasználó {0} már hozzá van rendelve ehhez az Alkalmazotthoz {1}"
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:62
 msgid "User {0} is disabled. Please select valid user/cashier"
-msgstr ""
+msgstr "A(z) {0} felhasználó le van tiltva. Kérjük, válasszon érvényes felhasználót/pénztárost."
 
 #: erpnext/setup/doctype/employee/employee.py:365
 msgid "User {0}: Removed Employee Self Service role as there is no mapped employee."
@@ -61465,7 +61465,7 @@ msgstr "Az ezzel a role értékkel rendelkező felhasználók az allowance perce
 #. field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Users with this role can still submit invoices for customers who have crossed their Overdue Limit."
-msgstr ""
+msgstr "Az ezzel a szerepkörrel rendelkező felhasználók továbbra is véglegesíthetnek számlákat olyan vevőknek, akik átlépték a késedelmi limitjüket."
 
 #. Description of the 'Role to Notify on Depreciation Failure' (Link) field in
 #. DocType 'Accounts Settings'
@@ -61784,7 +61784,7 @@ msgstr "Az értékelési típusú díjak nem jelölhetők befogadónak"
 
 #: erpnext/public/js/controllers/accounts.js:228
 msgid "Valuation type charges cannot be marked as Inclusive"
-msgstr ""
+msgstr "Az értékelési típusú költségek nem jelölhetők meg beleértettként"
 
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.js:58
 msgid "Value (G - D)"
@@ -61968,7 +61968,7 @@ msgstr "A változat létrehozása sorba állítva."
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:172
 msgid "Variant {0} and its template {1} cannot both be added to the same Pricing Rule"
-msgstr ""
+msgstr "A(z) {0} variáns és a(z) {1} sablonja nem adható hozzá ugyanahhoz az árazási szabályhoz"
 
 #. Name of a DocType
 #. Label of the vehicle (Link) field in DocType 'Delivery Trip'
@@ -63052,7 +63052,7 @@ msgstr "Mivel kapcsolatban van szükséged segítségre?"
 
 #: erpnext/public/js/setup_wizard.js:69
 msgid "What do you use today?"
-msgstr ""
+msgstr "Mit használ jelenleg?"
 
 #: erpnext/public/js/setup_wizard.js:47
 msgid "What kind of work do you do?"
@@ -63096,7 +63096,7 @@ msgstr "Ha be van jelölve, csak a tranzakciós küszöbérték lesz alkalmazva 
 #. DocType 'Global Defaults'
 #: erpnext/setup/doctype/global_defaults/global_defaults.json
 msgid "When checked, the system will use the posting date of the document for naming instead of the creation date."
-msgstr ""
+msgstr "Ha be van jelölve, a rendszer a dokumentum könyvelési dátumát használja az elnevezéshez a létrehozás dátuma helyett."
 
 #: erpnext/stock/doctype/item/item.js:1674
 msgid "When creating an Item, entering a value for this field will automatically create an Item Price at the backend."
@@ -63137,7 +63137,7 @@ msgstr "fehér"
 
 #: erpnext/public/js/setup_wizard.js:31
 msgid "Who are you setting this up for?"
-msgstr ""
+msgstr "Kinek állítja be ezt?"
 
 #. Option for the 'Marital Status' (Select) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -63390,11 +63390,11 @@ msgstr "Munkarendelés-összesítő riport"
 
 #: erpnext/stock/doctype/material_request/material_request.py:648
 msgid "Work Order cannot be created for the following reason: <br> {0}"
-msgstr ""
+msgstr "A gyártási utasítás nem hozható létre a következő ok miatt: <br> {0}"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:873
 msgid "Work Order cannot be raised against an Item Template"
-msgstr ""
+msgstr "Gyártási utasítás nem indítható cikksablonra"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1147
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1194
@@ -63585,7 +63585,7 @@ msgstr "Munkaállomás zárva a következő időpontokban a Nyaralási lista sze
 
 #: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.py:67
 msgid "Workstation {0} has no free capacity between {1} and {2}: overlaps with {3}"
-msgstr ""
+msgstr "A(z) {0} munkaállomásnak nincs szabad kapacitása {1} és {2} között: átfedésben van ezzel: {3}"
 
 #. Label of the workstations_tab (Tab Break) field in DocType 'Plant Floor'
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
@@ -63762,7 +63762,7 @@ msgstr "Adatokat importál ehhez a kódlistához:"
 
 #: erpnext/accounts/services/child_item_update.py:237
 msgid "You are not allowed to update as per the conditions set in {0} Workflow."
-msgstr ""
+msgstr "Nem módosíthat a(z) {0} munkafolyamatban beállított feltételek szerint."
 
 #: erpnext/accounts/services/gl_validator.py:114
 msgid "You are not authorized to add or update entries before {0}"
@@ -63778,11 +63778,11 @@ msgstr "Nincs engedélye a zárolt értékek beállítására"
 
 #: erpnext/stock/doctype/company_restriction/company_restriction.py:125
 msgid "You are not permitted to add or remove Company {0} in Allowed Companies"
-msgstr ""
+msgstr "Nincs jogosultsága a(z) {0} cég hozzáadására vagy eltávolítására az Engedélyezett cégek közül"
 
 #: erpnext/projects/doctype/task/task.py:346
 msgid "You are not permitted to create a Task for Project {0}"
-msgstr ""
+msgstr "Nincs jogosultsága feladatot létrehozni a(z) {0} projekthez"
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:594
 msgid "You are picking more than required quantity for the item {0}. Check if there is any other pick list created for the sales order {1}."
@@ -63790,7 +63790,7 @@ msgstr "A szükségesnél nagyobb mennyiséget pickingel a(z) {0} item esetén. 
 
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:111
 msgid "You can add the original invoice {0} manually to proceed."
-msgstr ""
+msgstr "A folytatáshoz kézzel hozzáadhatja a(z) {0} eredeti számlát."
 
 #: banking/src/components/features/BankReconciliation/Rules/RuleForm.tsx:743
 msgid "You can also add credit or debit values to pre-fill - these support both static values (like 200) or formulas (like transaction_amount * 0.25)."
@@ -63863,11 +63863,11 @@ msgstr "Nem hozhat létre {0} rekordot a lezárt Accounting Period {1} alatt"
 
 #: erpnext/accounts/services/gl_validator.py:64
 msgid "You cannot create or cancel any accounting entries within the closed Accounting Period {0}"
-msgstr ""
+msgstr "Nem hozhat létre és nem sztornózhat könyvelési tételeket a lezárt {0} könyvelési időszakban"
 
 #: erpnext/accounts/services/gl_validator.py:145
 msgid "You cannot create/amend any accounting entries until this date."
-msgstr ""
+msgstr "Ezen dátumig nem hozhat létre és nem módosíthat könyvelési tételeket."
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:675
 msgid "You cannot credit and debit same account at the same time"
@@ -63879,7 +63879,7 @@ msgstr "A \"Külső\" projekttípust nem törölheti"
 
 #: erpnext/setup/doctype/department/department.js:19
 msgid "You cannot edit the root node."
-msgstr ""
+msgstr "A gyökércsomópont nem szerkeszthető."
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.py:206
 msgid "You cannot enable both the settings '{0}' and '{1}'."
@@ -63887,7 +63887,7 @@ msgstr "Nem engedélyezheti egyszerre ezt a két beállítást: '{0}' és '{1}'.
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1602
 msgid "You cannot make any changes to Job Card since Work Order is closed."
-msgstr ""
+msgstr "Nem módosíthatja a munkakártyát, mert a gyártási utasítás le van zárva."
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:168
 msgid "You cannot outward the following {0} as they are either Delivered, Inactive or located in a different warehouse."
@@ -63940,7 +63940,7 @@ msgstr "Nincs jogosultsága banki tranzakciók importálására"
 
 #: erpnext/accounts/services/child_item_update.py:215
 msgid "You do not have permissions to {0} items in a {1}."
-msgstr ""
+msgstr "Nincs jogosultsága a cikkek {0} műveletéhez ebben: {1}."
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.py:187
 msgid "You don't have enough Loyalty Points to redeem"
@@ -63988,7 +63988,7 @@ msgstr "Engedélyezte ezeket: {0} és {1} ebben: {2}. Ez ahhoz vezethet, hogy a 
 
 #: erpnext/stock/doctype/shipment/shipment.js:445
 msgid "You have entered a duplicate Delivery Note on row {0}. Please rectify and try again."
-msgstr ""
+msgstr "Duplikált szállítólevelet adott meg a(z) {0}. sorban. Kérjük, javítsa és próbálja újra."
 
 #: banking/src/components/features/BankReconciliation/BankPicker.tsx:64
 msgid "You have not added any bank accounts to your company."
@@ -64016,7 +64016,7 @@ msgstr "Elem hozzáadása előtt ki kell választania egy ügyfelet."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:282
 msgid "You need to cancel POS Closing Entry {0} to be able to cancel this document."
-msgstr ""
+msgstr "A dokumentum sztornózásához sztornóznia kell a(z) {0} POS-zárási tételt."
 
 #: erpnext/accounts/services/taxes.py:276
 msgid "You selected the account group {1} as {2} Account in row {0}. Please select a single account."
@@ -64076,7 +64076,7 @@ msgstr "Nulla egyenleg"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:379
 msgid "Zero Balance Journal: {0}"
-msgstr ""
+msgstr "Nulla egyenlegű könyvelési tétel: {0}"
 
 #: erpnext/regional/report/uae_vat_201/uae_vat_201.py:78
 msgid "Zero Rated"
@@ -64204,7 +64204,7 @@ msgstr "fieldname"
 
 #: erpnext/setup/doctype/item_group/item_group.py:50
 msgid "for tax category {0}"
-msgstr ""
+msgstr "a(z) {0} adókategóriához"
 
 #. Option for the 'Service Provider' (Select) field in DocType 'Currency
 #. Exchange Settings'
@@ -64229,7 +64229,7 @@ msgstr "órák"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:1133
 msgid "in {0}"
-msgstr ""
+msgstr "ebben: {0}"
 
 #. Label of the lft (Int) field in DocType 'Cost Center'
 #. Label of the lft (Int) field in DocType 'Location'
@@ -64514,7 +64514,7 @@ msgstr "{0} A minta megtartása kötegen alapul. Kérjük, jelölje be a Rendelk
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:798
 msgid "{0} Serial Nos added. They will be saved with the document."
-msgstr ""
+msgstr "{0} sorozatszám hozzáadva. A dokumentummal együtt mentésre kerülnek."
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.py:1048
 msgid "{0} Transaction(s) Reconciled"
@@ -64636,19 +64636,19 @@ msgstr "{0} nem tartozik a Company {1} rekordhoz."
 
 #: erpnext/accounts/doctype/dunning_type/dunning_type.py:100
 msgid "{0} doesn't belong to Company {1}. Please select a Cost Center that belongs to Company {1}."
-msgstr ""
+msgstr "A(z) {0} nem tartozik a(z) {1} céghez. Kérjük, válasszon a(z) {1} céghez tartozó költséghelyet."
 
 #: erpnext/accounts/doctype/dunning_type/dunning_type.py:57
 msgid "{0} doesn't belong to Company {1}. Please select an Income Account that belongs to Company {1}."
-msgstr ""
+msgstr "A(z) {0} nem tartozik a(z) {1} céghez. Kérjük, válasszon a(z) {1} céghez tartozó bevételi számlát."
 
 #: erpnext/public/js/templates/shop_floor_template.html:880
 msgid "{0} draft job cards awaiting submission"
-msgstr ""
+msgstr "{0} piszkozat munkakártya véglegesítésre vár"
 
 #: erpnext/public/js/utils/draft_link_guard.js:55
 msgid "{0} draft {1} documents already exist for this {2}: {3}. Do you still want to create a new one?"
-msgstr ""
+msgstr "Már létezik {0} piszkozat {1} dokumentum ehhez a(z) {2}: {3} elemhez. Biztosan létrehoz egy újat?"
 
 #: erpnext/accounts/doctype/item_tax_template/item_tax_template.py:74
 msgid "{0} entered twice in Item Tax"
@@ -64661,15 +64661,15 @@ msgstr "A(z) {0} kétszer lett megadva itt: {1}, az Item Taxes táblában"
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:648
 msgid "{0} entries fetched"
-msgstr ""
+msgstr "{0} tétel lekérve"
 
 #: erpnext/accounts/bulk_payment.py:41
 msgid "{0} excluded (not payable)"
-msgstr ""
+msgstr "{0} kizárva (nem fizetendő)"
 
 #: erpnext/accounts/bulk_payment.py:43
 msgid "{0} failed (see Error Log)"
-msgstr ""
+msgstr "{0} sikertelen (lásd a hibanaplót)"
 
 #: erpnext/accounts/utils.py:138
 #: erpnext/projects/doctype/activity_cost/activity_cost.py:40
@@ -64690,7 +64690,7 @@ msgstr "{0} sikeresen beküldésre került"
 
 #: erpnext/controllers/buying_controller.py:289
 msgid "{0} has submitted assets linked to it. You need to cancel the assets to create purchase return."
-msgstr ""
+msgstr "A(z) {0} elemhez véglegesített eszközök kapcsolódnak. A beszerzési visszáru létrehozásához sztornóznia kell az eszközöket."
 
 #: erpnext/projects/doctype/project/project_dashboard.html:15
 msgid "{0} hours"
@@ -64702,11 +64702,11 @@ msgstr "{0} a {1} sorban"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:389
 msgid "{0} invoice(s) excluded"
-msgstr ""
+msgstr "{0} számla kizárva"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:66
 msgid "{0} is a child company."
-msgstr ""
+msgstr "A(z) {0} leányvállalat."
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:465
 msgid "{0} is a child table and will be deleted automatically with its parent"
@@ -64714,11 +64714,11 @@ msgstr "{0} child table, és automatikusan törlődik a parent rekorddal együtt
 
 #: erpnext/accounts/doctype/dunning_type/dunning_type.py:114
 msgid "{0} is a group Cost Center. Please select a non-group Cost Center."
-msgstr ""
+msgstr "A(z) {0} csoport-költséghely. Kérjük, válasszon nem csoport típusú költséghelyet."
 
 #: erpnext/accounts/doctype/dunning_type/dunning_type.py:78
 msgid "{0} is a group account. Please select a non-group Income Account."
-msgstr ""
+msgstr "A(z) {0} csoportszámla. Kérjük, válasszon nem csoport típusú bevételi számlát."
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:95
 msgid "{0} is a mandatory Accounting Dimension. <br>Please set a value for {0} in Accounting Dimensions section."
@@ -64736,7 +64736,7 @@ msgstr ""
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1567
 msgid "{0} is already in progress. Pause it or complete the session."
-msgstr ""
+msgstr "A(z) {0} már folyamatban van. Szüneteltesse, vagy fejezze be a munkamenetet."
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:648
 msgid "{0} is already running for {1}"
@@ -64748,11 +64748,11 @@ msgstr "{0} blokkolva van, így ez a tranzakció nem folytatható"
 
 #: erpnext/accounts/doctype/dunning_type/dunning_type.py:64
 msgid "{0} is disabled. Please select a valid Income Account."
-msgstr ""
+msgstr "A(z) {0} le van tiltva. Kérjük, válasszon érvényes bevételi számlát."
 
 #: erpnext/accounts/doctype/dunning_type/dunning_type.py:107
 msgid "{0} is disabled. Please select an enabled Cost Center."
-msgstr ""
+msgstr "A(z) {0} le van tiltva. Kérjük, válasszon engedélyezett költséghelyet."
 
 #: erpnext/assets/doctype/asset/asset.py:514
 msgid "{0} is in Draft. Submit it before creating the Asset."
@@ -64793,7 +64793,7 @@ msgstr "{0} nem Készletezhető tétel"
 
 #: erpnext/stock/doctype/item_standard_cost/item_standard_cost.py:58
 msgid "{0} is not a stock item."
-msgstr ""
+msgstr "A(z) {0} nem készletezett cikk."
 
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:407
 msgid "{0} is not a valid Accounting Dimension."
@@ -64813,7 +64813,7 @@ msgstr "A(z) {0} nincs hozzáadva a táblázathoz."
 
 #: erpnext/accounts/doctype/dunning_type/dunning_type.py:71
 msgid "{0} is not an Income Account. Please select a valid Income Account."
-msgstr ""
+msgstr "A(z) {0} nem bevételi számla. Kérjük, válasszon érvényes bevételi számlát."
 
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:146
 msgid "{0} is not enabled in {1}"
@@ -64821,7 +64821,7 @@ msgstr "A(z) {0} nincs engedélyezve itt: {1}."
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:656
 msgid "{0} is not running. Cannot trigger events for this document"
-msgstr ""
+msgstr "A(z) {0} nem fut. Ehhez a dokumentumhoz nem indíthatók események"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/inline_editor.py:147
 msgid "{0} is not supported for the inline Serial / Batch editor"
@@ -64833,7 +64833,7 @@ msgstr "A(z) {0} egyetlen tételnél sem alapértelmezett beszállító."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:2700
 msgid "{0} is on hold until {1}"
-msgstr ""
+msgstr "A(z) {0} vissza van tartva eddig: {1}"
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:68
 msgid "{0} is open. Close the POS or cancel the existing POS Opening Entry to create a new POS Opening Entry."
@@ -64869,15 +64869,15 @@ msgstr "{0} items to return"
 
 #: erpnext/public/js/templates/shop_floor_template.html:921
 msgid "{0} job cards awaiting Manufacture entry"
-msgstr ""
+msgstr "{0} munkakártya vár gyártási tételre"
 
 #: erpnext/accounts/doctype/dunning_type/dunning_type.py:144
 msgid "{0} languages are marked as default languages. Please select only one of them."
-msgstr ""
+msgstr "{0} nyelv van alapértelmezettként megjelölve. Kérjük, csak egyet válasszon közülük."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:160
 msgid "{0} must be a group warehouse."
-msgstr ""
+msgstr "A(z) {0} csoportraktár kell legyen."
 
 #: erpnext/controllers/sales_and_purchase_return.py:239
 msgid "{0} must be negative in return document"
@@ -64901,7 +64901,7 @@ msgstr "{0} fizetési bejegyzéseket nem lehet szűrni ezzel: {1}"
 
 #: erpnext/public/js/templates/shop_floor_template.html:962
 msgid "{0} pending job cards"
-msgstr ""
+msgstr "{0} függőben lévő munkakártya"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:394
 msgid "{0} qty of Item {1} is being received into Warehouse {2} with capacity {3}."
@@ -64909,7 +64909,7 @@ msgstr "{0} qty érkezik a(z) {1} Item rekordból a(z) {2} Warehouse rekordba, a
 
 #: erpnext/public/js/templates/shop_floor_template.html:1050
 msgid "{0} submitted today"
-msgstr ""
+msgstr "Ma {0} véglegesítve"
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:167
 msgctxt "Do MMMM YYYY"
@@ -64991,7 +64991,7 @@ msgstr "{0} {1} nem frissíthető. Ha módosításra van szükség, javasolt a m
 
 #: erpnext/stock/doctype/company_restriction/company_restriction.py:149
 msgid "{0} {1} cannot be used with Company {2} because of Company Restrictions"
-msgstr ""
+msgstr "A(z) {0} {1} nem használható a(z) {2} céggel a cégkorlátozások miatt"
 
 #: erpnext/accounts/doctype/payment_order/payment_order.py:130
 msgid "{0} {1} created"
@@ -64999,7 +64999,7 @@ msgstr "{0} {1} létrehozott"
 
 #: erpnext/setup/doctype/company/company.py:338
 msgid "{0} {1} does not belong to company {2}"
-msgstr ""
+msgstr "A(z) {0} {1} nem tartozik a(z) {2} céghez"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:632
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:685
@@ -65040,11 +65040,11 @@ msgstr "{0} {1} már kapcsolódik a Common Code {2} rekordhoz."
 #: erpnext/accounts/doctype/party_link/party_link.py:53
 #: erpnext/accounts/doctype/party_link/party_link.py:63
 msgid "{0} {1} is already linked with another {2}"
-msgstr ""
+msgstr "A(z) {0} {1} már egy másik {2} elemhez van kapcsolva"
 
 #: erpnext/accounts/doctype/party_link/party_link.py:40
 msgid "{0} {1} is already linked with {2} {3}"
-msgstr ""
+msgstr "A(z) {0} {1} már a(z) {2} {3} elemhez van kapcsolva"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:715
 msgid "{0} {1} is associated with {2}, but Party Account is {3}"
@@ -65089,7 +65089,7 @@ msgstr "{0} {1} nem aktív"
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:452
 msgid "{0} {1} is not affecting bank account {2}"
-msgstr ""
+msgstr "A(z) {0} {1} nem érinti a(z) {2} bankszámlát"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:692
 msgid "{0} {1} is not associated with {2} {3}"
@@ -65222,11 +65222,11 @@ msgstr "{0}: Virtuális DocType (nincs adatbázistábla)"
 
 #: erpnext/stock/doctype/item/item.js:1261
 msgid "{0}: remove invalid value(s) {1}"
-msgstr ""
+msgstr "{0}: távolítsa el az érvénytelen érték(ek)et: {1}"
 
 #: erpnext/stock/doctype/item/item.js:1268
 msgid "{0}: select the typed value {1} from the list or clear it"
-msgstr ""
+msgstr "{0}: válassza ki a beírt {1} értéket a listából, vagy törölje"
 
 #: erpnext/controllers/accounts_controller.py:513
 msgid "{0}: {1} does not belong to the Company: {2}"
@@ -65246,15 +65246,15 @@ msgstr "{0}: {1} -nek kevesebbnek kell lennie, mint {2}"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:1119
 msgid "{0}d"
-msgstr ""
+msgstr "{0} nap"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:1120
 msgid "{0}h"
-msgstr ""
+msgstr "{0} óra"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:1121
 msgid "{0}m"
-msgstr ""
+msgstr "{0} perc"
 
 #: erpnext/controllers/buying_controller.py:1054
 msgid "{count} Assets created for {item_code}"
@@ -65286,7 +65286,7 @@ msgstr "{} Hozzárendelt"
 #. Count format of shortcut in the CRM Workspace
 #: erpnext/crm/workspace/crm/crm.json
 msgid "{} Open"
-msgstr ""
+msgstr "{} nyitott"
 
 #: banking/src/components/features/ActionLog/ActionLogDialogBody.tsx:236
 msgid "{} invoices"
